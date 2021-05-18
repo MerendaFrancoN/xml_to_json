@@ -7,7 +7,7 @@ def run():
     print ('Number of arguments:', len(sys.argv), 'arguments.')
     print ('Argument List:', str(sys.argv[1]))
     # TODO -- Add control for args
-    fileParser1 = Seat1MapParser(sys.argv[1])
+    fileParser1 = Seat2MapParser(sys.argv[1])
     fileParser1.getFlightSeats()
 
 
