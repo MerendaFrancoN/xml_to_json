@@ -1,6 +1,6 @@
 import xml.etree.ElementTree as ET
 from app.model.flight_info import FlightInfo
-from app.model.flight_seat import FlightSeat, Availability, SeatCondition, SeatLocation
+from app.model.flight_seat import FlightSeat, Availability, SeatCondition, SeatLocation, CabinType
 from app.model.price import Price
 
 
@@ -61,7 +61,7 @@ class Seat2MapParser:
                             rowNumber = rowNumber,
                             seatId=str(rowNumber)+str(colNumber),
                             availability=availability,
-                            cabinClass="Economy",
+                            cabinClass=self.__parseCabinClass(seat),
                             location=cabinLayoutDict[colNumber],
                             price=price
                         )
@@ -69,6 +69,15 @@ class Seat2MapParser:
         
         return flightSeatList
     
+
+    def __parseCabinClass(self, seat):
+        preferentialSeatClass = "SD16"
+        seatDefs = self.__getSeatDefinitionsOfSeat(seat)
+        if(any(preferentialSeatClass in seatDef for seatDef in seatDefs)):
+            return CabinType.PREFERENTIAL.name
+        else:
+            return CabinType.ECONOMY.name
+
     def __parseCabinLayout(self, cabin : ET.Element):
         columns = cabin.find("ns:CabinLayout",self.__namespaces).findall("ns:Columns",self.__namespaces)
         cabinLayout = {}
@@ -86,6 +95,8 @@ class Seat2MapParser:
 
         return cabinLayout
 
+    def __getSeatDefinitionsOfSeat(self, seat:ET.Element):
+        return list(map((lambda elem : elem.text),seat.findall("ns:SeatDefinitionRef", self.__namespaces)))
 
     def __parseAvailability(self, seat: ET.Element):
         #Assume that if a seat has any of these definitions, is not available
@@ -94,7 +105,7 @@ class Seat2MapParser:
         availableSeatDef = "SD4"
         
         #Get seat definitions and check availability
-        seatDefinitions =  list(map((lambda elem : elem.text),seat.findall("ns:SeatDefinitionRef", self.__namespaces)))
+        seatDefinitions =  self.__getSeatDefinitionsOfSeat(seat)
         hasAvailableSeatDef = any(availableSeatDef in seatDef for seatDef in seatDefinitions)
         isRestrictedSeat = False
         #Check if has restricted SeatDefs

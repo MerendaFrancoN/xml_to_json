@@ -33,6 +33,7 @@ class Availability:
 class CabinType(enum.Enum):
     ECONOMY = 1
     FIRST = 2
+    PREFERENTIAL = 3
 
 class FlightSeat:
     rowNumber = ""
