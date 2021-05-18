@@ -37,17 +37,6 @@ class Seat2MapParser:
                 offerItemsDict[itemKey] = Price(currency="", totalAmount=0.0)
         
         return offerItemsDict
-    
-    
-    def __parseSeatDefinitions(self):
-        seatDefs = {}
-        seatDefinitionList = self.__fileRoot.find("ns:DataLists",self.__namespaces).find("ns:SeatDefinitionList",self.__namespaces)
-        
-        for seatDefinition in seatDefinitionList:
-            seatDefKey = seatDefinition.get("SeatDefinitionID")
-            seatDefs[seatDefKey] = seatDefinition.find("ns:Description",self.__namespaces).find("ns:Text",self.__namespaces).text
-        
-        return seatDefs
 
     def getFlightSeats(self):
         flightSeatList = []
