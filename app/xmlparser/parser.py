@@ -1,5 +1,8 @@
 import xml.etree.ElementTree as ET
-from app.model.models import FlightSeat, FlightInfo, Price
+from app.model.flight_info import FlightInfo
+from app.model.flight_seat import FlightSeat
+from app.model.price import Price
+
 # --- Parsers ---- #
 class Seat1MapParser:
 
