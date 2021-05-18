@@ -50,3 +50,26 @@ class Seat2MapParser:
             seatDefs[seatDefKey] = seatDefinition.find("ns:Description",self.__namespaces).find("ns:Text",self.__namespaces).text
         
         return seatDefs
+
+    def __parseSeatsData(self):
+        seatMapList = self.__fileRoot.find("ns:SeatMap",self.__namespaces)
+        for seatMap in seatMapList:
+            seatRows = seatMap.find("ns:Cabin",self.__namespaces).findall("ns:Row",self.__namespaces)
+            for row in seatRows:
+                seats = row.findall("ns:Seat",self.__namespaces)
+                rowNumber = row.find("ns:Number",self.__namespaces).text
+                for seat in seats:
+                    colNumber = seat.find("ns:Column",self.__namespaces).text
+                    seatId = str(rowNumber)+str(colNumber)
+                    priceRef = seat.find("ns:OfferItemRefs",self.__namespaces)
+                    
+    def __getPriceFromOfferRef(self, priceRef):
+        if(priceRef != None):
+            return self.__offerItems.get(priceRef)
+        
+        return Price(currency="", totalAmount=0.0)
+
+
+            
+
+

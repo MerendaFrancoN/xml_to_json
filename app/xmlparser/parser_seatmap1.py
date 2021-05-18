@@ -1,9 +1,11 @@
 import xml.etree.ElementTree as ET
 from app.model.flight_info import FlightInfo
-from app.model.flight_seat import FlightSeat
+from app.model.flight_seat import Availability, FlightSeat,SeatLocation
 from app.model.price import Price
 
 # --- Parsers ---- #
+
+
 class Seat1MapParser:
 
     __namespaces = {
@@ -41,8 +43,6 @@ class Seat1MapParser:
     def __getCabinsData(self):
         return self.__getSeatMapRawDetails().findall("ns:CabinClass", self.__namespaces)
 
-
-    
     def getFlightSeats(self) -> list:
         flightSeatList = []
         for cabinRowElement in self.__getCabinsData():
@@ -51,54 +51,78 @@ class Seat1MapParser:
                 flightSeatList.append(rowSeatsList)
         return flightSeatList
 
-    def __parseRawRowSeat(self, row: ET.Element): #RowInfo
+    def __parseRawRowSeat(self, row: ET.Element):  # RowInfo
         seatsInRow = row.findall("ns:SeatInfo", self.__namespaces)
         seatsParsed = []
         for seatInfo in seatsInRow:
             flightSeat = FlightSeat(
                 cabinClass=row.get("CabinType"),
                 rowNumber=row.get("RowNumber"),
-                isAvailable=seatInfo.find(
-                    "ns:Summary", self.__namespaces).get("AvailableInd") == "true",
+                availability=self.__parseAvailability(seatInfo),
                 seatId=seatInfo.find(
                     "ns:Summary", self.__namespaces).get("SeatNumber"),
-                seatType=seatInfo.find(
-                    "ns:Features", self.__namespaces).text,
-                price= Price(totalAmount=0.0, currency="")
-            )   
-            #Update price of the seat
-            flightSeat.price = self.__parseSeatPrice(seatInfo=seatInfo,isAvailable=flightSeat.isAvailable)
+                location=self.__parseSeatLocation(seatInfo),
+                price=Price(totalAmount=0.0, currency="")
+            )
+            # Update price of the seat
+            flightSeat.price = self.__parseSeatPrice(
+                seatInfo=seatInfo, isAvailable=flightSeat.availability.value)
             seatsParsed.append(flightSeat)
-            
+
         return seatsParsed
 
-    def __parseSeatPrice(self,seatInfo: ET.Element, isAvailable : bool):
+    def __parseSeatLocation(self, seatInfo: ET.Element):
+        
+        features = seatInfo.findall(
+                    "ns:Features", self.__namespaces)
+
+        seatLocationStr = ""
+        for feature in features:
+            if(len(feature.keys()) == 0):
+                seatLocationStr = feature.text
+                break
+        
+        
+        if(seatLocationStr == "Aisle"):
+                return SeatLocation.AISLE.name
+        if(seatLocationStr == "Window"):
+                return SeatLocation.WINDOW.name
+        if(seatLocationStr == "Center"):
+                return SeatLocation.CENTER.name        
+        
+    def __parseAvailability(self, seatInfo: ET.Element):
+        return Availability(value=seatInfo.find(
+            "ns:Summary", self.__namespaces).get("AvailableInd") == "true",
+            conditions=[]
+        )
+
+    def __parseSeatPrice(self, seatInfo: ET.Element, isAvailable: bool):
         totalAmount = 0.0
         price = 0.0
         taxes = 0.0
         taxesCurrency = "" if not isAvailable else seatInfo.find(
-                "ns:Service", self.__namespaces).find("ns:Fee", self.__namespaces).find(
-                    "ns:Taxes", self.__namespaces).get("CurrencyCode").upper()
+            "ns:Service", self.__namespaces).find("ns:Fee", self.__namespaces).find(
+            "ns:Taxes", self.__namespaces).get("CurrencyCode").upper()
         priceCurrency = "" if not isAvailable else seatInfo.find(
-                    "ns:Service", self.__namespaces).find("ns:Fee", self.__namespaces).get("CurrencyCode").upper()
+            "ns:Service", self.__namespaces).find("ns:Fee", self.__namespaces).get("CurrencyCode").upper()
 
         if(isAvailable):
             try:
-                #TODO - Validate currency type
+                # TODO - Validate currency type
                 price = float(seatInfo.find(
-                        "ns:Service", self.__namespaces).find("ns:Fee", self.__namespaces).get("Amount"))
+                    "ns:Service", self.__namespaces).find("ns:Fee", self.__namespaces).get("Amount"))
                 taxes = float(seatInfo.find(
-                        "ns:Service", self.__namespaces).find("ns:Fee", self.__namespaces).find("ns:Taxes", self.__namespaces).get("Amount"))
-            except :
+                    "ns:Service", self.__namespaces).find("ns:Fee", self.__namespaces).find("ns:Taxes", self.__namespaces).get("Amount"))
+            except:
                 price = 0.0
                 taxes = 0.0
 
         totalAmount = price + taxes
-        
+
         return Price(
-                totalAmount= totalAmount,
-                currency= priceCurrency
-            )
+            totalAmount=totalAmount,
+            currency=priceCurrency
+        )
 
     def getFlightInfo(self) -> FlightInfo:
 
