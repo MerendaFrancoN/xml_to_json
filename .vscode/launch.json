@@ -8,10 +8,10 @@
             "name": "Python: Current File",
             "type": "python",
             "request": "launch",
-            "program": "${file}",
+            "program": "${workspaceFolder}/seatmap_parser.py",
             "console": "integratedTerminal",
             "args":[
-                "/home/stormtrooper/Software Projects/InterviewPython/xml_to_json/app/seatmap1.xml"
+                "/home/stormtrooper/Software Projects/InterviewPython/xml_to_json/app/seatmap2.xml"
             ]
         }
     ]
