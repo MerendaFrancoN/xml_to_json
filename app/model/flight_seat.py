@@ -26,9 +26,19 @@ class SeatCondition(enum.Enum):
 class Availability:
     value: bool = False
     conditions = []
+    
     def __init__(self, value:bool, conditions:list):
         self.value = value
         self.conditions = conditions
+    
+    def jsonRepr(self):
+        jsonDict = {
+            "value": self.value,
+            "conditions": self.conditions,
+        }
+        return jsonDict
+    
+
 
 class CabinType(enum.Enum):
     ECONOMY = 1
@@ -52,3 +62,14 @@ class FlightSeat:
         self.availability = availability
         self.price = price
         self.rowNumber = rowNumber
+    
+    def jsonRepr(self):
+        jsonDict = {
+            "rowNumber": self.rowNumber,
+            "location": self.location,
+            "seatId": self.seatId,
+            "cabinClass":self.cabinClass,
+            "price": self.price.jsonRepr(),
+            "availability": self.availability.jsonRepr()
+        }
+        return jsonDict
