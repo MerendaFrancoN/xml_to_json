@@ -9,6 +9,7 @@ def run():
     fileParser1 = Seat1MapParser(sys.argv[1])
     flightInfo1 = fileParser1.getFlightInfo()
     flightSeats1 = fileParser1.getFlightSeats()
+    print("FInished")
 
 
 if __name__ == '__main__':

@@ -65,17 +65,36 @@ class Seat1MapParser:
             )   
             #Update price of the seat
             flightSeat.price = self.__parseSeatPrice(seatInfo=seatInfo,isAvailable=flightSeat.isAvailable)
-
             seatsParsed.append(flightSeat)
             
         return seatsParsed
 
     def __parseSeatPrice(self,seatInfo: ET.Element, isAvailable : bool):
+        totalAmount = 0.0
+        price = 0.0
+        taxes = 0.0
+        taxesCurrency = "" if not isAvailable else seatInfo.find(
+                "ns:Service", self.__namespaces).find("ns:Fee", self.__namespaces).find(
+                    "ns:Taxes", self.__namespaces).get("CurrencyCode").upper()
+        priceCurrency = "" if not isAvailable else seatInfo.find(
+                    "ns:Service", self.__namespaces).find("ns:Fee", self.__namespaces).get("CurrencyCode").upper()
+
+        if(isAvailable):
+            try:
+                #TODO - Validate currency type
+                price = float(seatInfo.find(
+                        "ns:Service", self.__namespaces).find("ns:Fee", self.__namespaces).get("Amount"))
+                taxes = float(seatInfo.find(
+                        "ns:Service", self.__namespaces).find("ns:Fee", self.__namespaces).find("ns:Taxes", self.__namespaces).get("Amount"))
+            except :
+                price = 0.0
+                taxes = 0.0
+
+        totalAmount = price + taxes
+        
         return Price(
-                totalAmount=0.0 if not isAvailable else seatInfo.find(
-                    "ns:Service", self.__namespaces).find("ns:Fee", self.__namespaces).get("Amount"),
-                currency="" if not isAvailable else seatInfo.find(
-                    "ns:Service", self.__namespaces).find("ns:Fee", self.__namespaces).get("CurrencyCode").upper(),
+                totalAmount= totalAmount,
+                currency= priceCurrency
             )
 
     def getFlightInfo(self) -> FlightInfo:
