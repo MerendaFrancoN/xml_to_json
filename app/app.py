@@ -1,5 +1,5 @@
 import sys
-from parser import Seat1MapParser,Seat2MapParser
+from app.xmlparser.parser import Seat1MapParser
 
 
 def run():
@@ -9,15 +9,6 @@ def run():
     fileParser1 = Seat1MapParser(sys.argv[1])
     flightInfo1 = fileParser1.getFlightInfo()
     flightSeats1 = fileParser1.getFlightSeats()
-    for seatRow in flightSeats1:
-        print(seatRow)
-
-
-
-
-
-
-
 
 
 if __name__ == '__main__':
