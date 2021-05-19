@@ -4,10 +4,9 @@ from app.model.flight_seat import FlightSeat,SeatLocation, CabinType
 from app.model.availability import Availability, SeatCondition
 from app.model.price import Price
 
-# --- Parsers ---- #
-
-
-class Seat1MapParser:
+# Helpful link for a better understanding of fields meaning - 
+# https://files.developer.sabre.com/doc/providerdoc/Merchandising/EnhancedSeatMap_v6_User_Guide.pdf
+class SeatMap1Parser:
 
     __namespaces = {
         'soapenc': "http://schemas.xmlsoap.org/soap/encoding/",

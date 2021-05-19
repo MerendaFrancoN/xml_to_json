@@ -5,7 +5,9 @@ from app.model.availability import Availability, SeatCondition
 from app.model.price import Price
 
 
-class Seat2MapParser:
+# Helpful link for a better understanding of fields meaning -
+# https://ndc.ba.com/docs/api/ -- Check SeatAvailabilityRS API
+class SeatMap2Parser:
 
     __namespaces = {
         'ns': "http://www.iata.org/IATA/EDIST/2017.2",
