@@ -1,4 +1,5 @@
 import json
+from app.model.flight_output_data import FlightOutputData
 
 class ComplexEncoder(json.JSONEncoder):
     def default(self, obj):
@@ -15,5 +16,12 @@ class JSONFileWriter:
             jsonString+=json.dumps(flightSeat.jsonRepr(), cls=ComplexEncoder, indent=4)
         
         jsonFile = open(output_filename, "w")
+        jsonFile.write(jsonString)
+        jsonFile.close()
+    
+    def flightSeatsByRowToJson(self, flightSeatsByRow : list, flightData,output_filename: str):
+        
+        jsonFile = open(output_filename, "w")
+        jsonString = json.dumps(FlightOutputData(flightSeatsByRow, flightData).jsonRepr(), cls=ComplexEncoder, indent=2)
         jsonFile.write(jsonString)
         jsonFile.close()

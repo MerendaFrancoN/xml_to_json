@@ -11,3 +11,12 @@ class FlightInfo:
         self.departureAirportCode = departureAirportCode
         self.airEquipCode = airEquipCode
         self.flightNumber = flightNumber
+
+    def jsonRepr(self):
+        return {
+            "departureAirportCode":self.departureAirportCode,
+            "arrivalAirportCode":self.arrivalAirportCode,
+            "airEquipCode" : self.airEquipCode,
+            "flightNumber" : self.flightNumber,
+            "departureDateTime": self.departureDateTime 
+        }

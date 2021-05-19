@@ -21,7 +21,15 @@ class SeatCondition(enum.Enum):
     SEAT_SUITABLE_FOR_UNACCOMPANIED_MINORS = 12,
     REAR_FACING_SEAT = 13,
     CREW_SEAT = 14,
-    SEAT_NOT_ALLOWED_FOR_MEDICAL = 15
+    SEAT_NOT_ALLOWED_FOR_MEDICAL = 15,
+    CHARGEABLE = 16,
+    LAVATORY = 17,
+    BLOCKED_SEAT_PERMANENT = 18
+
+class CabinType(enum.Enum):
+    ECONOMY = 1
+    FIRST = 2
+    PREFERENTIAL = 3
 
 class Availability:
     value: bool = False
@@ -38,12 +46,6 @@ class Availability:
         }
         return jsonDict
     
-
-
-class CabinType(enum.Enum):
-    ECONOMY = 1
-    FIRST = 2
-    PREFERENTIAL = 3
 
 class FlightSeat:
     rowNumber = ""
@@ -64,7 +66,7 @@ class FlightSeat:
         self.rowNumber = rowNumber
     
     def jsonRepr(self):
-        jsonDict = {
+        return {
             "rowNumber": self.rowNumber,
             "location": self.location,
             "seatId": self.seatId,
@@ -72,4 +74,3 @@ class FlightSeat:
             "price": self.price.jsonRepr(),
             "availability": self.availability.jsonRepr()
         }
-        return jsonDict

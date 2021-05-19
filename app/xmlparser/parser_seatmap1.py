@@ -1,6 +1,6 @@
 import xml.etree.ElementTree as ET
 from app.model.flight_info import FlightInfo
-from app.model.flight_seat import Availability, FlightSeat,SeatLocation
+from app.model.flight_seat import Availability, FlightSeat, SeatCondition,SeatLocation, CabinType
 from app.model.price import Price
 
 # --- Parsers ---- #
@@ -56,7 +56,7 @@ class Seat1MapParser:
         seatsParsed = []
         for seatInfo in seatsInRow:
             flightSeat = FlightSeat(
-                cabinClass=row.get("CabinType"),
+                cabinClass=self.__parseCabinType(row),
                 rowNumber=row.get("RowNumber"),
                 availability=self.__parseAvailability(seatInfo),
                 seatId=seatInfo.find(
@@ -70,6 +70,13 @@ class Seat1MapParser:
             seatsParsed.append(flightSeat)
 
         return seatsParsed
+
+    def __parseCabinType(self, cabinTypeElement:ET.Element):
+        cabinType = cabinTypeElement.get("CabinType")
+        if(cabinType == "Economy"):
+            return CabinType.ECONOMY.name
+        if(cabinType == "First"):
+            return CabinType.FIRST.name          
 
     def __parseSeatLocation(self, seatInfo: ET.Element):
         
@@ -91,10 +98,52 @@ class Seat1MapParser:
                 return SeatLocation.CENTER.name        
         
     def __parseAvailability(self, seatInfo: ET.Element):
+
+        seatConditions = []
+        if(seatInfo.get("ExitRowInd") == "true"):
+            seatConditions.append(SeatCondition.EXIT.name)
+
+        #Parse all features and their "extension" tag
+        extensions, featuresTexts = self.__parseFeatures(seatInfo)
+        
+        #Analyze extensions
+        for extension in extensions:
+            if(extension == "Limited Recline"):
+                seatConditions.append(SeatCondition.RESTRICTED_RECLINE_SEAT.name)
+            if(extension == "Chargeable"):
+                seatConditions.append(SeatCondition.CHARGEABLE.name)
+            if(extension == "Lavatory"):
+                seatConditions.append(SeatCondition.LAVATORY.name)
+
+        #Analyze texts
+        for featureText in featuresTexts:
+            if(featureText == "Overwing"):
+                seatConditions.append(SeatCondition.WING.name)
+            if(featureText == "BlockedSeat_Permanent"):
+                seatConditions.append(SeatCondition.BLOCKED_SEAT_PERMANENT.name)
+            
+            
+
         return Availability(value=seatInfo.find(
             "ns:Summary", self.__namespaces).get("AvailableInd") == "true",
-            conditions=[]
+            conditions=seatConditions
         )
+
+    def __parseFeatures(self, seatInfo):
+        #Parse all features and their "extension" tag
+        features = seatInfo.findall("ns:Features",self.__namespaces)
+        extensions = []
+        featuresTexts = []
+        for feature in features:
+            try:
+                value = feature.get("extension")
+                if value == None:
+                    featuresTexts.append(feature.text)
+                else:
+                    extensions.append(value)
+            except:
+                pass
+        return extensions, featuresTexts
 
     def __parseSeatPrice(self, seatInfo: ET.Element, isAvailable: bool):
         totalAmount = 0.0
