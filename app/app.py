@@ -17,7 +17,7 @@ def parseSeatMap(input_filename, parser : SeatMapParserInterface):
     flightSeatsByRow = parser.getFlightSeats()
     flightData = parser.getFlightInfo()
     flightOutputData = FlightOutputData(flightSeatsByRow, flightData)
-    outputFilename = input_filename+"_parsed.json"
+    outputFilename = input_filename.split(".")[0]+"_parsed.json"
     #Write JSON File
     JSONFileWriter().flightDataToJson(flightOutputData, output_filename=outputFilename)
     print("File {0} created successfully!".format(outputFilename.split(sep="/")[-1]))
