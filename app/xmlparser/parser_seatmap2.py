@@ -93,7 +93,7 @@ class Seat2MapParser:
                 location = SeatLocation.WINDOW
             if(column.text == "AISLE"):
                 location = SeatLocation.AISLE
-            if(column.text == ""):
+            if(column.text == None):
                 location = SeatLocation.CENTER
             
             cabinLayout[column.get("Position")] = location.name
