@@ -1,0 +1,2695 @@
+{
+  "flightData": {
+    "departureAirportCode": "FNC",
+    "arrivalAirportCode": "DUS",
+    "airEquipCode": "320",
+    "flightNumber": "1415",
+    "departureDateTime": "2021-08-26T17:45:00"
+  },
+  "seatsData": [
+    [
+      {
+        "rowNumber": "7",
+        "location": "WINDOW",
+        "seatId": "7A",
+        "cabinClass": "ECONOMY",
+        "cabinLayout": "ABC DEF",
+        "price": {
+          "totalAmount": 22.1,
+          "currency": "GBP"
+        },
+        "availability": {
+          "value": true,
+          "conditions": [
+            "SEAT_SUITABLE_FOR_ADULT_WITH_AN_INFANT",
+            "SEAT_IN_A_QUIET_ZONE"
+          ]
+        }
+      },
+      {
+        "rowNumber": "7",
+        "location": "CENTER",
+        "seatId": "7B",
+        "cabinClass": "ECONOMY",
+        "cabinLayout": "ABC DEF",
+        "price": {
+          "totalAmount": 22.1,
+          "currency": "GBP"
+        },
+        "availability": {
+          "value": true,
+          "conditions": [
+            "SEAT_IN_A_QUIET_ZONE"
+          ]
+        }
+      },
+      {
+        "rowNumber": "7",
+        "location": "AISLE",
+        "seatId": "7C",
+        "cabinClass": "ECONOMY",
+        "cabinLayout": "ABC DEF",
+        "price": {
+          "totalAmount": 22.1,
+          "currency": "GBP"
+        },
+        "availability": {
+          "value": true,
+          "conditions": [
+            "SEAT_IN_A_QUIET_ZONE",
+            "SEAT_NOT_SUITABLE_FOR_CHILD"
+          ]
+        }
+      },
+      {
+        "rowNumber": "7",
+        "location": "AISLE",
+        "seatId": "7D",
+        "cabinClass": "ECONOMY",
+        "cabinLayout": "ABC DEF",
+        "price": {
+          "totalAmount": 22.1,
+          "currency": "GBP"
+        },
+        "availability": {
+          "value": true,
+          "conditions": [
+            "SEAT_IN_A_QUIET_ZONE",
+            "SEAT_NOT_SUITABLE_FOR_CHILD",
+            "SEAT_NOT_ALLOWED_FOR_INFANT"
+          ]
+        }
+      },
+      {
+        "rowNumber": "7",
+        "location": "CENTER",
+        "seatId": "7E",
+        "cabinClass": "ECONOMY",
+        "cabinLayout": "ABC DEF",
+        "price": {
+          "totalAmount": 22.1,
+          "currency": "GBP"
+        },
+        "availability": {
+          "value": true,
+          "conditions": [
+            "SEAT_IN_A_QUIET_ZONE",
+            "SEAT_NOT_ALLOWED_FOR_INFANT"
+          ]
+        }
+      },
+      {
+        "rowNumber": "7",
+        "location": "WINDOW",
+        "seatId": "7F",
+        "cabinClass": "ECONOMY",
+        "cabinLayout": "ABC DEF",
+        "price": {
+          "totalAmount": 22.1,
+          "currency": "GBP"
+        },
+        "availability": {
+          "value": true,
+          "conditions": [
+            "SEAT_IN_A_QUIET_ZONE",
+            "SEAT_NOT_ALLOWED_FOR_INFANT"
+          ]
+        }
+      }
+    ],
+    [
+      {
+        "rowNumber": "11",
+        "location": "WINDOW",
+        "seatId": "11A",
+        "cabinClass": "ECONOMY",
+        "cabinLayout": "ABC DEF",
+        "price": {
+          "totalAmount": 0.0,
+          "currency": ""
+        },
+        "availability": {
+          "value": false,
+          "conditions": [
+            "SEAT_NOT_SUITABLE_FOR_CHILD",
+            "RESTRICTED_RECLINE_SEAT",
+            "SEAT_TO_BE_LEFT_VACANT_OR_OFFERED_LAST",
+            "WING"
+          ]
+        }
+      },
+      {
+        "rowNumber": "11",
+        "location": "CENTER",
+        "seatId": "11B",
+        "cabinClass": "ECONOMY",
+        "cabinLayout": "ABC DEF",
+        "price": {
+          "totalAmount": 0.0,
+          "currency": ""
+        },
+        "availability": {
+          "value": false,
+          "conditions": [
+            "SEAT_NOT_SUITABLE_FOR_CHILD",
+            "RESTRICTED_RECLINE_SEAT",
+            "SEAT_TO_BE_LEFT_VACANT_OR_OFFERED_LAST",
+            "WING"
+          ]
+        }
+      },
+      {
+        "rowNumber": "11",
+        "location": "AISLE",
+        "seatId": "11C",
+        "cabinClass": "ECONOMY",
+        "cabinLayout": "ABC DEF",
+        "price": {
+          "totalAmount": 0.0,
+          "currency": ""
+        },
+        "availability": {
+          "value": false,
+          "conditions": [
+            "SEAT_NOT_SUITABLE_FOR_CHILD",
+            "RESTRICTED_RECLINE_SEAT",
+            "SEAT_TO_BE_LEFT_VACANT_OR_OFFERED_LAST",
+            "WING"
+          ]
+        }
+      },
+      {
+        "rowNumber": "11",
+        "location": "AISLE",
+        "seatId": "11D",
+        "cabinClass": "ECONOMY",
+        "cabinLayout": "ABC DEF",
+        "price": {
+          "totalAmount": 0.0,
+          "currency": ""
+        },
+        "availability": {
+          "value": false,
+          "conditions": [
+            "SEAT_NOT_SUITABLE_FOR_CHILD",
+            "SEAT_NOT_ALLOWED_FOR_INFANT",
+            "RESTRICTED_RECLINE_SEAT",
+            "SEAT_TO_BE_LEFT_VACANT_OR_OFFERED_LAST",
+            "WING"
+          ]
+        }
+      },
+      {
+        "rowNumber": "11",
+        "location": "CENTER",
+        "seatId": "11E",
+        "cabinClass": "ECONOMY",
+        "cabinLayout": "ABC DEF",
+        "price": {
+          "totalAmount": 0.0,
+          "currency": ""
+        },
+        "availability": {
+          "value": false,
+          "conditions": [
+            "SEAT_NOT_SUITABLE_FOR_CHILD",
+            "SEAT_NOT_ALLOWED_FOR_INFANT",
+            "RESTRICTED_RECLINE_SEAT",
+            "SEAT_TO_BE_LEFT_VACANT_OR_OFFERED_LAST",
+            "WING"
+          ]
+        }
+      },
+      {
+        "rowNumber": "11",
+        "location": "WINDOW",
+        "seatId": "11F",
+        "cabinClass": "ECONOMY",
+        "cabinLayout": "ABC DEF",
+        "price": {
+          "totalAmount": 0.0,
+          "currency": ""
+        },
+        "availability": {
+          "value": false,
+          "conditions": [
+            "SEAT_NOT_SUITABLE_FOR_CHILD",
+            "SEAT_NOT_ALLOWED_FOR_INFANT",
+            "RESTRICTED_RECLINE_SEAT",
+            "SEAT_TO_BE_LEFT_VACANT_OR_OFFERED_LAST",
+            "WING"
+          ]
+        }
+      }
+    ],
+    [
+      {
+        "rowNumber": "12",
+        "location": "WINDOW",
+        "seatId": "12A",
+        "cabinClass": "ECONOMY",
+        "cabinLayout": "ABC DEF",
+        "price": {
+          "totalAmount": 35.4,
+          "currency": "GBP"
+        },
+        "availability": {
+          "value": true,
+          "conditions": [
+            "SEAT_NOT_SUITABLE_FOR_CHILD",
+            "SEAT_NOT_ALLOWED_FOR_INFANT",
+            "RESTRICTED_RECLINE_SEAT",
+            "WING",
+            "SEAT_NOT_ALLOWED_FOR_MEDICAL",
+            "EXIT",
+            "LEG_SPACE_SEAT"
+          ]
+        }
+      },
+      {
+        "rowNumber": "12",
+        "location": "CENTER",
+        "seatId": "12B",
+        "cabinClass": "ECONOMY",
+        "cabinLayout": "ABC DEF",
+        "price": {
+          "totalAmount": 35.4,
+          "currency": "GBP"
+        },
+        "availability": {
+          "value": true,
+          "conditions": [
+            "SEAT_NOT_SUITABLE_FOR_CHILD",
+            "SEAT_NOT_ALLOWED_FOR_INFANT",
+            "RESTRICTED_RECLINE_SEAT",
+            "WING",
+            "SEAT_NOT_ALLOWED_FOR_MEDICAL",
+            "EXIT",
+            "LEG_SPACE_SEAT"
+          ]
+        }
+      },
+      {
+        "rowNumber": "12",
+        "location": "AISLE",
+        "seatId": "12C",
+        "cabinClass": "ECONOMY",
+        "cabinLayout": "ABC DEF",
+        "price": {
+          "totalAmount": 35.4,
+          "currency": "GBP"
+        },
+        "availability": {
+          "value": true,
+          "conditions": [
+            "SEAT_NOT_SUITABLE_FOR_CHILD",
+            "SEAT_NOT_ALLOWED_FOR_INFANT",
+            "RESTRICTED_RECLINE_SEAT",
+            "WING",
+            "SEAT_NOT_ALLOWED_FOR_MEDICAL",
+            "EXIT",
+            "LEG_SPACE_SEAT"
+          ]
+        }
+      },
+      {
+        "rowNumber": "12",
+        "location": "AISLE",
+        "seatId": "12D",
+        "cabinClass": "ECONOMY",
+        "cabinLayout": "ABC DEF",
+        "price": {
+          "totalAmount": 35.4,
+          "currency": "GBP"
+        },
+        "availability": {
+          "value": true,
+          "conditions": [
+            "SEAT_NOT_SUITABLE_FOR_CHILD",
+            "SEAT_NOT_ALLOWED_FOR_INFANT",
+            "RESTRICTED_RECLINE_SEAT",
+            "WING",
+            "SEAT_NOT_ALLOWED_FOR_MEDICAL",
+            "EXIT",
+            "LEG_SPACE_SEAT"
+          ]
+        }
+      },
+      {
+        "rowNumber": "12",
+        "location": "CENTER",
+        "seatId": "12E",
+        "cabinClass": "ECONOMY",
+        "cabinLayout": "ABC DEF",
+        "price": {
+          "totalAmount": 35.4,
+          "currency": "GBP"
+        },
+        "availability": {
+          "value": true,
+          "conditions": [
+            "SEAT_NOT_SUITABLE_FOR_CHILD",
+            "SEAT_NOT_ALLOWED_FOR_INFANT",
+            "RESTRICTED_RECLINE_SEAT",
+            "WING",
+            "SEAT_NOT_ALLOWED_FOR_MEDICAL",
+            "EXIT",
+            "LEG_SPACE_SEAT"
+          ]
+        }
+      },
+      {
+        "rowNumber": "12",
+        "location": "WINDOW",
+        "seatId": "12F",
+        "cabinClass": "ECONOMY",
+        "cabinLayout": "ABC DEF",
+        "price": {
+          "totalAmount": 35.4,
+          "currency": "GBP"
+        },
+        "availability": {
+          "value": true,
+          "conditions": [
+            "SEAT_NOT_SUITABLE_FOR_CHILD",
+            "SEAT_NOT_ALLOWED_FOR_INFANT",
+            "RESTRICTED_RECLINE_SEAT",
+            "WING",
+            "SEAT_NOT_ALLOWED_FOR_MEDICAL",
+            "EXIT",
+            "LEG_SPACE_SEAT"
+          ]
+        }
+      }
+    ],
+    [
+      {
+        "rowNumber": "13",
+        "location": "WINDOW",
+        "seatId": "13A",
+        "cabinClass": "ECONOMY",
+        "cabinLayout": "ABC DEF",
+        "price": {
+          "totalAmount": 35.4,
+          "currency": "GBP"
+        },
+        "availability": {
+          "value": true,
+          "conditions": [
+            "SEAT_NOT_SUITABLE_FOR_CHILD",
+            "SEAT_NOT_ALLOWED_FOR_INFANT",
+            "WING",
+            "SEAT_NOT_ALLOWED_FOR_MEDICAL",
+            "EXIT",
+            "LEG_SPACE_SEAT"
+          ]
+        }
+      },
+      {
+        "rowNumber": "13",
+        "location": "CENTER",
+        "seatId": "13B",
+        "cabinClass": "ECONOMY",
+        "cabinLayout": "ABC DEF",
+        "price": {
+          "totalAmount": 35.4,
+          "currency": "GBP"
+        },
+        "availability": {
+          "value": true,
+          "conditions": [
+            "SEAT_NOT_SUITABLE_FOR_CHILD",
+            "SEAT_NOT_ALLOWED_FOR_INFANT",
+            "WING",
+            "SEAT_NOT_ALLOWED_FOR_MEDICAL",
+            "EXIT",
+            "LEG_SPACE_SEAT"
+          ]
+        }
+      },
+      {
+        "rowNumber": "13",
+        "location": "AISLE",
+        "seatId": "13C",
+        "cabinClass": "ECONOMY",
+        "cabinLayout": "ABC DEF",
+        "price": {
+          "totalAmount": 35.4,
+          "currency": "GBP"
+        },
+        "availability": {
+          "value": true,
+          "conditions": [
+            "SEAT_NOT_SUITABLE_FOR_CHILD",
+            "SEAT_NOT_ALLOWED_FOR_INFANT",
+            "WING",
+            "SEAT_NOT_ALLOWED_FOR_MEDICAL",
+            "EXIT",
+            "LEG_SPACE_SEAT"
+          ]
+        }
+      },
+      {
+        "rowNumber": "13",
+        "location": "AISLE",
+        "seatId": "13D",
+        "cabinClass": "ECONOMY",
+        "cabinLayout": "ABC DEF",
+        "price": {
+          "totalAmount": 35.4,
+          "currency": "GBP"
+        },
+        "availability": {
+          "value": true,
+          "conditions": [
+            "SEAT_NOT_SUITABLE_FOR_CHILD",
+            "SEAT_NOT_ALLOWED_FOR_INFANT",
+            "WING",
+            "SEAT_NOT_ALLOWED_FOR_MEDICAL",
+            "EXIT",
+            "LEG_SPACE_SEAT"
+          ]
+        }
+      },
+      {
+        "rowNumber": "13",
+        "location": "CENTER",
+        "seatId": "13E",
+        "cabinClass": "ECONOMY",
+        "cabinLayout": "ABC DEF",
+        "price": {
+          "totalAmount": 35.4,
+          "currency": "GBP"
+        },
+        "availability": {
+          "value": true,
+          "conditions": [
+            "SEAT_NOT_SUITABLE_FOR_CHILD",
+            "SEAT_NOT_ALLOWED_FOR_INFANT",
+            "WING",
+            "SEAT_NOT_ALLOWED_FOR_MEDICAL",
+            "EXIT",
+            "LEG_SPACE_SEAT"
+          ]
+        }
+      },
+      {
+        "rowNumber": "13",
+        "location": "WINDOW",
+        "seatId": "13F",
+        "cabinClass": "ECONOMY",
+        "cabinLayout": "ABC DEF",
+        "price": {
+          "totalAmount": 35.4,
+          "currency": "GBP"
+        },
+        "availability": {
+          "value": true,
+          "conditions": [
+            "SEAT_NOT_SUITABLE_FOR_CHILD",
+            "SEAT_NOT_ALLOWED_FOR_INFANT",
+            "WING",
+            "SEAT_NOT_ALLOWED_FOR_MEDICAL",
+            "EXIT",
+            "LEG_SPACE_SEAT"
+          ]
+        }
+      }
+    ],
+    [
+      {
+        "rowNumber": "14",
+        "location": "WINDOW",
+        "seatId": "14A",
+        "cabinClass": "ECONOMY",
+        "cabinLayout": "ABC DEF",
+        "price": {
+          "totalAmount": 17.7,
+          "currency": "GBP"
+        },
+        "availability": {
+          "value": true,
+          "conditions": [
+            "SEAT_NOT_SUITABLE_FOR_CHILD",
+            "SEAT_NOT_ALLOWED_FOR_INFANT",
+            "WING"
+          ]
+        }
+      },
+      {
+        "rowNumber": "14",
+        "location": "CENTER",
+        "seatId": "14B",
+        "cabinClass": "PREFERENTIAL",
+        "cabinLayout": "ABC DEF",
+        "price": {
+          "totalAmount": 17.7,
+          "currency": "GBP"
+        },
+        "availability": {
+          "value": true,
+          "conditions": [
+            "SEAT_NOT_SUITABLE_FOR_CHILD",
+            "SEAT_NOT_ALLOWED_FOR_INFANT",
+            "WING"
+          ]
+        }
+      },
+      {
+        "rowNumber": "14",
+        "location": "AISLE",
+        "seatId": "14C",
+        "cabinClass": "ECONOMY",
+        "cabinLayout": "ABC DEF",
+        "price": {
+          "totalAmount": 17.7,
+          "currency": "GBP"
+        },
+        "availability": {
+          "value": true,
+          "conditions": [
+            "SEAT_NOT_SUITABLE_FOR_CHILD",
+            "SEAT_NOT_ALLOWED_FOR_INFANT",
+            "WING"
+          ]
+        }
+      },
+      {
+        "rowNumber": "14",
+        "location": "AISLE",
+        "seatId": "14D",
+        "cabinClass": "ECONOMY",
+        "cabinLayout": "ABC DEF",
+        "price": {
+          "totalAmount": 17.7,
+          "currency": "GBP"
+        },
+        "availability": {
+          "value": true,
+          "conditions": [
+            "SEAT_NOT_SUITABLE_FOR_CHILD",
+            "WING"
+          ]
+        }
+      },
+      {
+        "rowNumber": "14",
+        "location": "CENTER",
+        "seatId": "14E",
+        "cabinClass": "PREFERENTIAL",
+        "cabinLayout": "ABC DEF",
+        "price": {
+          "totalAmount": 17.7,
+          "currency": "GBP"
+        },
+        "availability": {
+          "value": true,
+          "conditions": [
+            "SEAT_NOT_SUITABLE_FOR_CHILD",
+            "WING"
+          ]
+        }
+      },
+      {
+        "rowNumber": "14",
+        "location": "WINDOW",
+        "seatId": "14F",
+        "cabinClass": "ECONOMY",
+        "cabinLayout": "ABC DEF",
+        "price": {
+          "totalAmount": 17.7,
+          "currency": "GBP"
+        },
+        "availability": {
+          "value": true,
+          "conditions": [
+            "SEAT_SUITABLE_FOR_ADULT_WITH_AN_INFANT",
+            "SEAT_NOT_SUITABLE_FOR_CHILD",
+            "WING"
+          ]
+        }
+      }
+    ],
+    [
+      {
+        "rowNumber": "15",
+        "location": "WINDOW",
+        "seatId": "15A",
+        "cabinClass": "ECONOMY",
+        "cabinLayout": "ABC DEF",
+        "price": {
+          "totalAmount": 17.7,
+          "currency": "GBP"
+        },
+        "availability": {
+          "value": true,
+          "conditions": [
+            "SEAT_NOT_ALLOWED_FOR_INFANT",
+            "WING"
+          ]
+        }
+      },
+      {
+        "rowNumber": "15",
+        "location": "CENTER",
+        "seatId": "15B",
+        "cabinClass": "PREFERENTIAL",
+        "cabinLayout": "ABC DEF",
+        "price": {
+          "totalAmount": 17.7,
+          "currency": "GBP"
+        },
+        "availability": {
+          "value": true,
+          "conditions": [
+            "SEAT_NOT_ALLOWED_FOR_INFANT",
+            "WING"
+          ]
+        }
+      },
+      {
+        "rowNumber": "15",
+        "location": "AISLE",
+        "seatId": "15C",
+        "cabinClass": "ECONOMY",
+        "cabinLayout": "ABC DEF",
+        "price": {
+          "totalAmount": 17.7,
+          "currency": "GBP"
+        },
+        "availability": {
+          "value": true,
+          "conditions": [
+            "SEAT_NOT_ALLOWED_FOR_INFANT",
+            "WING"
+          ]
+        }
+      },
+      {
+        "rowNumber": "15",
+        "location": "AISLE",
+        "seatId": "15D",
+        "cabinClass": "ECONOMY",
+        "cabinLayout": "ABC DEF",
+        "price": {
+          "totalAmount": 17.7,
+          "currency": "GBP"
+        },
+        "availability": {
+          "value": true,
+          "conditions": [
+            "WING"
+          ]
+        }
+      },
+      {
+        "rowNumber": "15",
+        "location": "CENTER",
+        "seatId": "15E",
+        "cabinClass": "PREFERENTIAL",
+        "cabinLayout": "ABC DEF",
+        "price": {
+          "totalAmount": 17.7,
+          "currency": "GBP"
+        },
+        "availability": {
+          "value": true,
+          "conditions": [
+            "WING"
+          ]
+        }
+      },
+      {
+        "rowNumber": "15",
+        "location": "WINDOW",
+        "seatId": "15F",
+        "cabinClass": "ECONOMY",
+        "cabinLayout": "ABC DEF",
+        "price": {
+          "totalAmount": 17.7,
+          "currency": "GBP"
+        },
+        "availability": {
+          "value": true,
+          "conditions": [
+            "SEAT_SUITABLE_FOR_ADULT_WITH_AN_INFANT",
+            "WING"
+          ]
+        }
+      }
+    ],
+    [
+      {
+        "rowNumber": "8",
+        "location": "WINDOW",
+        "seatId": "8A",
+        "cabinClass": "ECONOMY",
+        "cabinLayout": "ABC DEF",
+        "price": {
+          "totalAmount": 22.1,
+          "currency": "GBP"
+        },
+        "availability": {
+          "value": true,
+          "conditions": [
+            "SEAT_IN_A_QUIET_ZONE",
+            "SEAT_NOT_ALLOWED_FOR_INFANT"
+          ]
+        }
+      },
+      {
+        "rowNumber": "8",
+        "location": "CENTER",
+        "seatId": "8B",
+        "cabinClass": "ECONOMY",
+        "cabinLayout": "ABC DEF",
+        "price": {
+          "totalAmount": 22.1,
+          "currency": "GBP"
+        },
+        "availability": {
+          "value": true,
+          "conditions": [
+            "SEAT_IN_A_QUIET_ZONE",
+            "SEAT_NOT_ALLOWED_FOR_INFANT"
+          ]
+        }
+      },
+      {
+        "rowNumber": "8",
+        "location": "AISLE",
+        "seatId": "8C",
+        "cabinClass": "ECONOMY",
+        "cabinLayout": "ABC DEF",
+        "price": {
+          "totalAmount": 22.1,
+          "currency": "GBP"
+        },
+        "availability": {
+          "value": true,
+          "conditions": [
+            "SEAT_IN_A_QUIET_ZONE",
+            "SEAT_NOT_SUITABLE_FOR_CHILD",
+            "SEAT_NOT_ALLOWED_FOR_INFANT"
+          ]
+        }
+      },
+      {
+        "rowNumber": "8",
+        "location": "AISLE",
+        "seatId": "8D",
+        "cabinClass": "ECONOMY",
+        "cabinLayout": "ABC DEF",
+        "price": {
+          "totalAmount": 22.1,
+          "currency": "GBP"
+        },
+        "availability": {
+          "value": true,
+          "conditions": [
+            "SEAT_IN_A_QUIET_ZONE",
+            "SEAT_NOT_SUITABLE_FOR_CHILD"
+          ]
+        }
+      },
+      {
+        "rowNumber": "8",
+        "location": "CENTER",
+        "seatId": "8E",
+        "cabinClass": "ECONOMY",
+        "cabinLayout": "ABC DEF",
+        "price": {
+          "totalAmount": 22.1,
+          "currency": "GBP"
+        },
+        "availability": {
+          "value": true,
+          "conditions": [
+            "SEAT_IN_A_QUIET_ZONE"
+          ]
+        }
+      },
+      {
+        "rowNumber": "8",
+        "location": "WINDOW",
+        "seatId": "8F",
+        "cabinClass": "ECONOMY",
+        "cabinLayout": "ABC DEF",
+        "price": {
+          "totalAmount": 22.1,
+          "currency": "GBP"
+        },
+        "availability": {
+          "value": true,
+          "conditions": [
+            "SEAT_SUITABLE_FOR_ADULT_WITH_AN_INFANT",
+            "SEAT_IN_A_QUIET_ZONE"
+          ]
+        }
+      }
+    ],
+    [
+      {
+        "rowNumber": "9",
+        "location": "WINDOW",
+        "seatId": "9A",
+        "cabinClass": "ECONOMY",
+        "cabinLayout": "ABC DEF",
+        "price": {
+          "totalAmount": 22.1,
+          "currency": "GBP"
+        },
+        "availability": {
+          "value": true,
+          "conditions": [
+            "SEAT_IN_A_QUIET_ZONE",
+            "SEAT_NOT_ALLOWED_FOR_INFANT",
+            "SEAT_WITH_FACILITIES_FOR_HANDICAPPED",
+            "SEAT_WITH_FACILITIES_FOR_HANDICAPPED_INCAPACITATED_PASSENGER"
+          ]
+        }
+      },
+      {
+        "rowNumber": "9",
+        "location": "CENTER",
+        "seatId": "9B",
+        "cabinClass": "ECONOMY",
+        "cabinLayout": "ABC DEF",
+        "price": {
+          "totalAmount": 22.1,
+          "currency": "GBP"
+        },
+        "availability": {
+          "value": true,
+          "conditions": [
+            "SEAT_IN_A_QUIET_ZONE",
+            "SEAT_NOT_ALLOWED_FOR_INFANT"
+          ]
+        }
+      },
+      {
+        "rowNumber": "9",
+        "location": "AISLE",
+        "seatId": "9C",
+        "cabinClass": "ECONOMY",
+        "cabinLayout": "ABC DEF",
+        "price": {
+          "totalAmount": 22.1,
+          "currency": "GBP"
+        },
+        "availability": {
+          "value": true,
+          "conditions": [
+            "SEAT_IN_A_QUIET_ZONE",
+            "SEAT_NOT_SUITABLE_FOR_CHILD",
+            "SEAT_NOT_ALLOWED_FOR_INFANT"
+          ]
+        }
+      },
+      {
+        "rowNumber": "9",
+        "location": "AISLE",
+        "seatId": "9D",
+        "cabinClass": "ECONOMY",
+        "cabinLayout": "ABC DEF",
+        "price": {
+          "totalAmount": 22.1,
+          "currency": "GBP"
+        },
+        "availability": {
+          "value": true,
+          "conditions": [
+            "SEAT_IN_A_QUIET_ZONE",
+            "SEAT_NOT_SUITABLE_FOR_CHILD"
+          ]
+        }
+      },
+      {
+        "rowNumber": "9",
+        "location": "CENTER",
+        "seatId": "9E",
+        "cabinClass": "ECONOMY",
+        "cabinLayout": "ABC DEF",
+        "price": {
+          "totalAmount": 22.1,
+          "currency": "GBP"
+        },
+        "availability": {
+          "value": true,
+          "conditions": [
+            "SEAT_IN_A_QUIET_ZONE"
+          ]
+        }
+      },
+      {
+        "rowNumber": "9",
+        "location": "WINDOW",
+        "seatId": "9F",
+        "cabinClass": "ECONOMY",
+        "cabinLayout": "ABC DEF",
+        "price": {
+          "totalAmount": 22.1,
+          "currency": "GBP"
+        },
+        "availability": {
+          "value": true,
+          "conditions": [
+            "SEAT_IN_A_QUIET_ZONE",
+            "SEAT_WITH_FACILITIES_FOR_HANDICAPPED",
+            "SEAT_WITH_FACILITIES_FOR_HANDICAPPED_INCAPACITATED_PASSENGER"
+          ]
+        }
+      }
+    ],
+    [
+      {
+        "rowNumber": "10",
+        "location": "WINDOW",
+        "seatId": "10A",
+        "cabinClass": "ECONOMY",
+        "cabinLayout": "ABC DEF",
+        "price": {
+          "totalAmount": 22.1,
+          "currency": "GBP"
+        },
+        "availability": {
+          "value": true,
+          "conditions": [
+            "SEAT_SUITABLE_FOR_ADULT_WITH_AN_INFANT",
+            "SEAT_IN_A_QUIET_ZONE",
+            "WING"
+          ]
+        }
+      },
+      {
+        "rowNumber": "10",
+        "location": "CENTER",
+        "seatId": "10B",
+        "cabinClass": "ECONOMY",
+        "cabinLayout": "ABC DEF",
+        "price": {
+          "totalAmount": 22.1,
+          "currency": "GBP"
+        },
+        "availability": {
+          "value": true,
+          "conditions": [
+            "SEAT_IN_A_QUIET_ZONE",
+            "WING"
+          ]
+        }
+      },
+      {
+        "rowNumber": "10",
+        "location": "AISLE",
+        "seatId": "10C",
+        "cabinClass": "ECONOMY",
+        "cabinLayout": "ABC DEF",
+        "price": {
+          "totalAmount": 22.1,
+          "currency": "GBP"
+        },
+        "availability": {
+          "value": true,
+          "conditions": [
+            "SEAT_IN_A_QUIET_ZONE",
+            "SEAT_NOT_SUITABLE_FOR_CHILD",
+            "WING"
+          ]
+        }
+      },
+      {
+        "rowNumber": "10",
+        "location": "AISLE",
+        "seatId": "10D",
+        "cabinClass": "ECONOMY",
+        "cabinLayout": "ABC DEF",
+        "price": {
+          "totalAmount": 22.1,
+          "currency": "GBP"
+        },
+        "availability": {
+          "value": true,
+          "conditions": [
+            "SEAT_IN_A_QUIET_ZONE",
+            "SEAT_NOT_SUITABLE_FOR_CHILD",
+            "SEAT_NOT_ALLOWED_FOR_INFANT",
+            "WING"
+          ]
+        }
+      },
+      {
+        "rowNumber": "10",
+        "location": "CENTER",
+        "seatId": "10E",
+        "cabinClass": "ECONOMY",
+        "cabinLayout": "ABC DEF",
+        "price": {
+          "totalAmount": 22.1,
+          "currency": "GBP"
+        },
+        "availability": {
+          "value": true,
+          "conditions": [
+            "SEAT_IN_A_QUIET_ZONE",
+            "SEAT_NOT_ALLOWED_FOR_INFANT",
+            "WING"
+          ]
+        }
+      },
+      {
+        "rowNumber": "10",
+        "location": "WINDOW",
+        "seatId": "10F",
+        "cabinClass": "ECONOMY",
+        "cabinLayout": "ABC DEF",
+        "price": {
+          "totalAmount": 22.1,
+          "currency": "GBP"
+        },
+        "availability": {
+          "value": true,
+          "conditions": [
+            "SEAT_IN_A_QUIET_ZONE",
+            "SEAT_NOT_ALLOWED_FOR_INFANT",
+            "WING"
+          ]
+        }
+      }
+    ],
+    [
+      {
+        "rowNumber": "22",
+        "location": "WINDOW",
+        "seatId": "22A",
+        "cabinClass": "ECONOMY",
+        "cabinLayout": "ABC DEF",
+        "price": {
+          "totalAmount": 17.7,
+          "currency": "GBP"
+        },
+        "availability": {
+          "value": true,
+          "conditions": [
+            "SEAT_NOT_ALLOWED_FOR_INFANT"
+          ]
+        }
+      },
+      {
+        "rowNumber": "22",
+        "location": "CENTER",
+        "seatId": "22B",
+        "cabinClass": "PREFERENTIAL",
+        "cabinLayout": "ABC DEF",
+        "price": {
+          "totalAmount": 17.7,
+          "currency": "GBP"
+        },
+        "availability": {
+          "value": true,
+          "conditions": [
+            "SEAT_NOT_ALLOWED_FOR_INFANT"
+          ]
+        }
+      },
+      {
+        "rowNumber": "22",
+        "location": "AISLE",
+        "seatId": "22C",
+        "cabinClass": "ECONOMY",
+        "cabinLayout": "ABC DEF",
+        "price": {
+          "totalAmount": 17.7,
+          "currency": "GBP"
+        },
+        "availability": {
+          "value": true,
+          "conditions": [
+            "SEAT_NOT_SUITABLE_FOR_CHILD",
+            "SEAT_NOT_ALLOWED_FOR_INFANT"
+          ]
+        }
+      },
+      {
+        "rowNumber": "22",
+        "location": "AISLE",
+        "seatId": "22D",
+        "cabinClass": "ECONOMY",
+        "cabinLayout": "ABC DEF",
+        "price": {
+          "totalAmount": 17.7,
+          "currency": "GBP"
+        },
+        "availability": {
+          "value": true,
+          "conditions": [
+            "SEAT_NOT_SUITABLE_FOR_CHILD"
+          ]
+        }
+      },
+      {
+        "rowNumber": "22",
+        "location": "CENTER",
+        "seatId": "22E",
+        "cabinClass": "PREFERENTIAL",
+        "cabinLayout": "ABC DEF",
+        "price": {
+          "totalAmount": 17.7,
+          "currency": "GBP"
+        },
+        "availability": {
+          "value": true,
+          "conditions": []
+        }
+      },
+      {
+        "rowNumber": "22",
+        "location": "WINDOW",
+        "seatId": "22F",
+        "cabinClass": "ECONOMY",
+        "cabinLayout": "ABC DEF",
+        "price": {
+          "totalAmount": 17.7,
+          "currency": "GBP"
+        },
+        "availability": {
+          "value": true,
+          "conditions": [
+            "SEAT_SUITABLE_FOR_ADULT_WITH_AN_INFANT"
+          ]
+        }
+      }
+    ],
+    [
+      {
+        "rowNumber": "23",
+        "location": "WINDOW",
+        "seatId": "23A",
+        "cabinClass": "ECONOMY",
+        "cabinLayout": "ABC DEF",
+        "price": {
+          "totalAmount": 17.7,
+          "currency": "GBP"
+        },
+        "availability": {
+          "value": true,
+          "conditions": [
+            "SEAT_NOT_ALLOWED_FOR_INFANT"
+          ]
+        }
+      },
+      {
+        "rowNumber": "23",
+        "location": "CENTER",
+        "seatId": "23B",
+        "cabinClass": "PREFERENTIAL",
+        "cabinLayout": "ABC DEF",
+        "price": {
+          "totalAmount": 17.7,
+          "currency": "GBP"
+        },
+        "availability": {
+          "value": true,
+          "conditions": [
+            "SEAT_NOT_ALLOWED_FOR_INFANT"
+          ]
+        }
+      },
+      {
+        "rowNumber": "23",
+        "location": "AISLE",
+        "seatId": "23C",
+        "cabinClass": "ECONOMY",
+        "cabinLayout": "ABC DEF",
+        "price": {
+          "totalAmount": 17.7,
+          "currency": "GBP"
+        },
+        "availability": {
+          "value": true,
+          "conditions": [
+            "SEAT_NOT_SUITABLE_FOR_CHILD",
+            "SEAT_NOT_ALLOWED_FOR_INFANT"
+          ]
+        }
+      },
+      {
+        "rowNumber": "23",
+        "location": "AISLE",
+        "seatId": "23D",
+        "cabinClass": "ECONOMY",
+        "cabinLayout": "ABC DEF",
+        "price": {
+          "totalAmount": 17.7,
+          "currency": "GBP"
+        },
+        "availability": {
+          "value": true,
+          "conditions": [
+            "SEAT_NOT_SUITABLE_FOR_CHILD"
+          ]
+        }
+      },
+      {
+        "rowNumber": "23",
+        "location": "CENTER",
+        "seatId": "23E",
+        "cabinClass": "PREFERENTIAL",
+        "cabinLayout": "ABC DEF",
+        "price": {
+          "totalAmount": 17.7,
+          "currency": "GBP"
+        },
+        "availability": {
+          "value": true,
+          "conditions": []
+        }
+      },
+      {
+        "rowNumber": "23",
+        "location": "WINDOW",
+        "seatId": "23F",
+        "cabinClass": "ECONOMY",
+        "cabinLayout": "ABC DEF",
+        "price": {
+          "totalAmount": 17.7,
+          "currency": "GBP"
+        },
+        "availability": {
+          "value": true,
+          "conditions": [
+            "SEAT_SUITABLE_FOR_ADULT_WITH_AN_INFANT"
+          ]
+        }
+      }
+    ],
+    [
+      {
+        "rowNumber": "16",
+        "location": "WINDOW",
+        "seatId": "16A",
+        "cabinClass": "ECONOMY",
+        "cabinLayout": "ABC DEF",
+        "price": {
+          "totalAmount": 17.7,
+          "currency": "GBP"
+        },
+        "availability": {
+          "value": true,
+          "conditions": [
+            "SEAT_SUITABLE_FOR_ADULT_WITH_AN_INFANT",
+            "WING"
+          ]
+        }
+      },
+      {
+        "rowNumber": "16",
+        "location": "CENTER",
+        "seatId": "16B",
+        "cabinClass": "PREFERENTIAL",
+        "cabinLayout": "ABC DEF",
+        "price": {
+          "totalAmount": 17.7,
+          "currency": "GBP"
+        },
+        "availability": {
+          "value": true,
+          "conditions": [
+            "WING"
+          ]
+        }
+      },
+      {
+        "rowNumber": "16",
+        "location": "AISLE",
+        "seatId": "16C",
+        "cabinClass": "ECONOMY",
+        "cabinLayout": "ABC DEF",
+        "price": {
+          "totalAmount": 17.7,
+          "currency": "GBP"
+        },
+        "availability": {
+          "value": true,
+          "conditions": [
+            "SEAT_NOT_SUITABLE_FOR_CHILD",
+            "WING"
+          ]
+        }
+      },
+      {
+        "rowNumber": "16",
+        "location": "AISLE",
+        "seatId": "16D",
+        "cabinClass": "ECONOMY",
+        "cabinLayout": "ABC DEF",
+        "price": {
+          "totalAmount": 17.7,
+          "currency": "GBP"
+        },
+        "availability": {
+          "value": true,
+          "conditions": [
+            "SEAT_NOT_SUITABLE_FOR_CHILD",
+            "SEAT_NOT_ALLOWED_FOR_INFANT",
+            "WING"
+          ]
+        }
+      },
+      {
+        "rowNumber": "16",
+        "location": "CENTER",
+        "seatId": "16E",
+        "cabinClass": "PREFERENTIAL",
+        "cabinLayout": "ABC DEF",
+        "price": {
+          "totalAmount": 17.7,
+          "currency": "GBP"
+        },
+        "availability": {
+          "value": true,
+          "conditions": [
+            "SEAT_NOT_ALLOWED_FOR_INFANT",
+            "WING"
+          ]
+        }
+      },
+      {
+        "rowNumber": "16",
+        "location": "WINDOW",
+        "seatId": "16F",
+        "cabinClass": "ECONOMY",
+        "cabinLayout": "ABC DEF",
+        "price": {
+          "totalAmount": 17.7,
+          "currency": "GBP"
+        },
+        "availability": {
+          "value": true,
+          "conditions": [
+            "SEAT_NOT_ALLOWED_FOR_INFANT",
+            "WING"
+          ]
+        }
+      }
+    ],
+    [
+      {
+        "rowNumber": "17",
+        "location": "WINDOW",
+        "seatId": "17A",
+        "cabinClass": "ECONOMY",
+        "cabinLayout": "ABC DEF",
+        "price": {
+          "totalAmount": 17.7,
+          "currency": "GBP"
+        },
+        "availability": {
+          "value": true,
+          "conditions": [
+            "SEAT_SUITABLE_FOR_ADULT_WITH_AN_INFANT",
+            "WING"
+          ]
+        }
+      },
+      {
+        "rowNumber": "17",
+        "location": "CENTER",
+        "seatId": "17B",
+        "cabinClass": "PREFERENTIAL",
+        "cabinLayout": "ABC DEF",
+        "price": {
+          "totalAmount": 17.7,
+          "currency": "GBP"
+        },
+        "availability": {
+          "value": true,
+          "conditions": [
+            "WING"
+          ]
+        }
+      },
+      {
+        "rowNumber": "17",
+        "location": "AISLE",
+        "seatId": "17C",
+        "cabinClass": "ECONOMY",
+        "cabinLayout": "ABC DEF",
+        "price": {
+          "totalAmount": 17.7,
+          "currency": "GBP"
+        },
+        "availability": {
+          "value": true,
+          "conditions": [
+            "SEAT_NOT_SUITABLE_FOR_CHILD",
+            "WING"
+          ]
+        }
+      },
+      {
+        "rowNumber": "17",
+        "location": "AISLE",
+        "seatId": "17D",
+        "cabinClass": "ECONOMY",
+        "cabinLayout": "ABC DEF",
+        "price": {
+          "totalAmount": 17.7,
+          "currency": "GBP"
+        },
+        "availability": {
+          "value": true,
+          "conditions": [
+            "SEAT_NOT_SUITABLE_FOR_CHILD",
+            "SEAT_NOT_ALLOWED_FOR_INFANT",
+            "WING"
+          ]
+        }
+      },
+      {
+        "rowNumber": "17",
+        "location": "CENTER",
+        "seatId": "17E",
+        "cabinClass": "PREFERENTIAL",
+        "cabinLayout": "ABC DEF",
+        "price": {
+          "totalAmount": 17.7,
+          "currency": "GBP"
+        },
+        "availability": {
+          "value": true,
+          "conditions": [
+            "SEAT_NOT_ALLOWED_FOR_INFANT",
+            "WING"
+          ]
+        }
+      },
+      {
+        "rowNumber": "17",
+        "location": "WINDOW",
+        "seatId": "17F",
+        "cabinClass": "ECONOMY",
+        "cabinLayout": "ABC DEF",
+        "price": {
+          "totalAmount": 17.7,
+          "currency": "GBP"
+        },
+        "availability": {
+          "value": true,
+          "conditions": [
+            "SEAT_NOT_ALLOWED_FOR_INFANT",
+            "WING"
+          ]
+        }
+      }
+    ],
+    [
+      {
+        "rowNumber": "18",
+        "location": "WINDOW",
+        "seatId": "18A",
+        "cabinClass": "ECONOMY",
+        "cabinLayout": "ABC DEF",
+        "price": {
+          "totalAmount": 17.7,
+          "currency": "GBP"
+        },
+        "availability": {
+          "value": true,
+          "conditions": [
+            "SEAT_SUITABLE_FOR_ADULT_WITH_AN_INFANT",
+            "WING"
+          ]
+        }
+      },
+      {
+        "rowNumber": "18",
+        "location": "CENTER",
+        "seatId": "18B",
+        "cabinClass": "PREFERENTIAL",
+        "cabinLayout": "ABC DEF",
+        "price": {
+          "totalAmount": 17.7,
+          "currency": "GBP"
+        },
+        "availability": {
+          "value": true,
+          "conditions": [
+            "WING"
+          ]
+        }
+      },
+      {
+        "rowNumber": "18",
+        "location": "AISLE",
+        "seatId": "18C",
+        "cabinClass": "ECONOMY",
+        "cabinLayout": "ABC DEF",
+        "price": {
+          "totalAmount": 17.7,
+          "currency": "GBP"
+        },
+        "availability": {
+          "value": true,
+          "conditions": [
+            "SEAT_NOT_SUITABLE_FOR_CHILD",
+            "WING"
+          ]
+        }
+      },
+      {
+        "rowNumber": "18",
+        "location": "AISLE",
+        "seatId": "18D",
+        "cabinClass": "ECONOMY",
+        "cabinLayout": "ABC DEF",
+        "price": {
+          "totalAmount": 17.7,
+          "currency": "GBP"
+        },
+        "availability": {
+          "value": true,
+          "conditions": [
+            "SEAT_NOT_SUITABLE_FOR_CHILD",
+            "SEAT_NOT_ALLOWED_FOR_INFANT",
+            "WING"
+          ]
+        }
+      },
+      {
+        "rowNumber": "18",
+        "location": "CENTER",
+        "seatId": "18E",
+        "cabinClass": "PREFERENTIAL",
+        "cabinLayout": "ABC DEF",
+        "price": {
+          "totalAmount": 17.7,
+          "currency": "GBP"
+        },
+        "availability": {
+          "value": true,
+          "conditions": [
+            "SEAT_NOT_ALLOWED_FOR_INFANT",
+            "WING"
+          ]
+        }
+      },
+      {
+        "rowNumber": "18",
+        "location": "WINDOW",
+        "seatId": "18F",
+        "cabinClass": "ECONOMY",
+        "cabinLayout": "ABC DEF",
+        "price": {
+          "totalAmount": 17.7,
+          "currency": "GBP"
+        },
+        "availability": {
+          "value": true,
+          "conditions": [
+            "SEAT_NOT_ALLOWED_FOR_INFANT",
+            "WING"
+          ]
+        }
+      }
+    ],
+    [
+      {
+        "rowNumber": "19",
+        "location": "WINDOW",
+        "seatId": "19A",
+        "cabinClass": "ECONOMY",
+        "cabinLayout": "ABC DEF",
+        "price": {
+          "totalAmount": 17.7,
+          "currency": "GBP"
+        },
+        "availability": {
+          "value": true,
+          "conditions": [
+            "SEAT_SUITABLE_FOR_ADULT_WITH_AN_INFANT"
+          ]
+        }
+      },
+      {
+        "rowNumber": "19",
+        "location": "CENTER",
+        "seatId": "19B",
+        "cabinClass": "PREFERENTIAL",
+        "cabinLayout": "ABC DEF",
+        "price": {
+          "totalAmount": 17.7,
+          "currency": "GBP"
+        },
+        "availability": {
+          "value": true,
+          "conditions": []
+        }
+      },
+      {
+        "rowNumber": "19",
+        "location": "AISLE",
+        "seatId": "19C",
+        "cabinClass": "ECONOMY",
+        "cabinLayout": "ABC DEF",
+        "price": {
+          "totalAmount": 17.7,
+          "currency": "GBP"
+        },
+        "availability": {
+          "value": true,
+          "conditions": [
+            "SEAT_NOT_SUITABLE_FOR_CHILD"
+          ]
+        }
+      },
+      {
+        "rowNumber": "19",
+        "location": "AISLE",
+        "seatId": "19D",
+        "cabinClass": "ECONOMY",
+        "cabinLayout": "ABC DEF",
+        "price": {
+          "totalAmount": 17.7,
+          "currency": "GBP"
+        },
+        "availability": {
+          "value": true,
+          "conditions": [
+            "SEAT_NOT_SUITABLE_FOR_CHILD",
+            "SEAT_NOT_ALLOWED_FOR_INFANT"
+          ]
+        }
+      },
+      {
+        "rowNumber": "19",
+        "location": "CENTER",
+        "seatId": "19E",
+        "cabinClass": "PREFERENTIAL",
+        "cabinLayout": "ABC DEF",
+        "price": {
+          "totalAmount": 17.7,
+          "currency": "GBP"
+        },
+        "availability": {
+          "value": true,
+          "conditions": [
+            "SEAT_NOT_ALLOWED_FOR_INFANT"
+          ]
+        }
+      },
+      {
+        "rowNumber": "19",
+        "location": "WINDOW",
+        "seatId": "19F",
+        "cabinClass": "ECONOMY",
+        "cabinLayout": "ABC DEF",
+        "price": {
+          "totalAmount": 17.7,
+          "currency": "GBP"
+        },
+        "availability": {
+          "value": true,
+          "conditions": [
+            "SEAT_NOT_ALLOWED_FOR_INFANT"
+          ]
+        }
+      }
+    ],
+    [
+      {
+        "rowNumber": "20",
+        "location": "WINDOW",
+        "seatId": "20A",
+        "cabinClass": "ECONOMY",
+        "cabinLayout": "ABC DEF",
+        "price": {
+          "totalAmount": 17.7,
+          "currency": "GBP"
+        },
+        "availability": {
+          "value": true,
+          "conditions": [
+            "SEAT_NOT_ALLOWED_FOR_INFANT"
+          ]
+        }
+      },
+      {
+        "rowNumber": "20",
+        "location": "CENTER",
+        "seatId": "20B",
+        "cabinClass": "PREFERENTIAL",
+        "cabinLayout": "ABC DEF",
+        "price": {
+          "totalAmount": 17.7,
+          "currency": "GBP"
+        },
+        "availability": {
+          "value": true,
+          "conditions": [
+            "SEAT_NOT_ALLOWED_FOR_INFANT"
+          ]
+        }
+      },
+      {
+        "rowNumber": "20",
+        "location": "AISLE",
+        "seatId": "20C",
+        "cabinClass": "ECONOMY",
+        "cabinLayout": "ABC DEF",
+        "price": {
+          "totalAmount": 17.7,
+          "currency": "GBP"
+        },
+        "availability": {
+          "value": true,
+          "conditions": [
+            "SEAT_NOT_SUITABLE_FOR_CHILD",
+            "SEAT_NOT_ALLOWED_FOR_INFANT"
+          ]
+        }
+      },
+      {
+        "rowNumber": "20",
+        "location": "AISLE",
+        "seatId": "20D",
+        "cabinClass": "ECONOMY",
+        "cabinLayout": "ABC DEF",
+        "price": {
+          "totalAmount": 17.7,
+          "currency": "GBP"
+        },
+        "availability": {
+          "value": true,
+          "conditions": [
+            "SEAT_NOT_SUITABLE_FOR_CHILD"
+          ]
+        }
+      },
+      {
+        "rowNumber": "20",
+        "location": "CENTER",
+        "seatId": "20E",
+        "cabinClass": "PREFERENTIAL",
+        "cabinLayout": "ABC DEF",
+        "price": {
+          "totalAmount": 17.7,
+          "currency": "GBP"
+        },
+        "availability": {
+          "value": true,
+          "conditions": []
+        }
+      },
+      {
+        "rowNumber": "20",
+        "location": "WINDOW",
+        "seatId": "20F",
+        "cabinClass": "ECONOMY",
+        "cabinLayout": "ABC DEF",
+        "price": {
+          "totalAmount": 17.7,
+          "currency": "GBP"
+        },
+        "availability": {
+          "value": true,
+          "conditions": [
+            "SEAT_SUITABLE_FOR_ADULT_WITH_AN_INFANT"
+          ]
+        }
+      }
+    ],
+    [
+      {
+        "rowNumber": "21",
+        "location": "WINDOW",
+        "seatId": "21A",
+        "cabinClass": "ECONOMY",
+        "cabinLayout": "ABC DEF",
+        "price": {
+          "totalAmount": 0.0,
+          "currency": ""
+        },
+        "availability": {
+          "value": false,
+          "conditions": [
+            "SEAT_NOT_ALLOWED_FOR_INFANT"
+          ]
+        }
+      },
+      {
+        "rowNumber": "21",
+        "location": "CENTER",
+        "seatId": "21B",
+        "cabinClass": "PREFERENTIAL",
+        "cabinLayout": "ABC DEF",
+        "price": {
+          "totalAmount": 0.0,
+          "currency": ""
+        },
+        "availability": {
+          "value": false,
+          "conditions": [
+            "SEAT_NOT_ALLOWED_FOR_INFANT"
+          ]
+        }
+      },
+      {
+        "rowNumber": "21",
+        "location": "AISLE",
+        "seatId": "21C",
+        "cabinClass": "ECONOMY",
+        "cabinLayout": "ABC DEF",
+        "price": {
+          "totalAmount": 17.7,
+          "currency": "GBP"
+        },
+        "availability": {
+          "value": true,
+          "conditions": [
+            "SEAT_NOT_SUITABLE_FOR_CHILD",
+            "SEAT_NOT_ALLOWED_FOR_INFANT"
+          ]
+        }
+      },
+      {
+        "rowNumber": "21",
+        "location": "AISLE",
+        "seatId": "21D",
+        "cabinClass": "ECONOMY",
+        "cabinLayout": "ABC DEF",
+        "price": {
+          "totalAmount": 17.7,
+          "currency": "GBP"
+        },
+        "availability": {
+          "value": true,
+          "conditions": [
+            "SEAT_NOT_SUITABLE_FOR_CHILD"
+          ]
+        }
+      },
+      {
+        "rowNumber": "21",
+        "location": "CENTER",
+        "seatId": "21E",
+        "cabinClass": "PREFERENTIAL",
+        "cabinLayout": "ABC DEF",
+        "price": {
+          "totalAmount": 17.7,
+          "currency": "GBP"
+        },
+        "availability": {
+          "value": true,
+          "conditions": []
+        }
+      },
+      {
+        "rowNumber": "21",
+        "location": "WINDOW",
+        "seatId": "21F",
+        "cabinClass": "ECONOMY",
+        "cabinLayout": "ABC DEF",
+        "price": {
+          "totalAmount": 17.7,
+          "currency": "GBP"
+        },
+        "availability": {
+          "value": true,
+          "conditions": [
+            "SEAT_SUITABLE_FOR_ADULT_WITH_AN_INFANT"
+          ]
+        }
+      }
+    ],
+    [
+      {
+        "rowNumber": "24",
+        "location": "WINDOW",
+        "seatId": "24A",
+        "cabinClass": "ECONOMY",
+        "cabinLayout": "ABC DEF",
+        "price": {
+          "totalAmount": 17.7,
+          "currency": "GBP"
+        },
+        "availability": {
+          "value": true,
+          "conditions": [
+            "SEAT_SUITABLE_FOR_ADULT_WITH_AN_INFANT"
+          ]
+        }
+      },
+      {
+        "rowNumber": "24",
+        "location": "CENTER",
+        "seatId": "24B",
+        "cabinClass": "PREFERENTIAL",
+        "cabinLayout": "ABC DEF",
+        "price": {
+          "totalAmount": 17.7,
+          "currency": "GBP"
+        },
+        "availability": {
+          "value": true,
+          "conditions": []
+        }
+      },
+      {
+        "rowNumber": "24",
+        "location": "AISLE",
+        "seatId": "24C",
+        "cabinClass": "ECONOMY",
+        "cabinLayout": "ABC DEF",
+        "price": {
+          "totalAmount": 17.7,
+          "currency": "GBP"
+        },
+        "availability": {
+          "value": true,
+          "conditions": [
+            "SEAT_NOT_SUITABLE_FOR_CHILD"
+          ]
+        }
+      },
+      {
+        "rowNumber": "24",
+        "location": "AISLE",
+        "seatId": "24D",
+        "cabinClass": "ECONOMY",
+        "cabinLayout": "ABC DEF",
+        "price": {
+          "totalAmount": 17.7,
+          "currency": "GBP"
+        },
+        "availability": {
+          "value": true,
+          "conditions": [
+            "SEAT_NOT_SUITABLE_FOR_CHILD",
+            "SEAT_NOT_ALLOWED_FOR_INFANT"
+          ]
+        }
+      },
+      {
+        "rowNumber": "24",
+        "location": "CENTER",
+        "seatId": "24E",
+        "cabinClass": "PREFERENTIAL",
+        "cabinLayout": "ABC DEF",
+        "price": {
+          "totalAmount": 17.7,
+          "currency": "GBP"
+        },
+        "availability": {
+          "value": true,
+          "conditions": [
+            "SEAT_NOT_ALLOWED_FOR_INFANT"
+          ]
+        }
+      },
+      {
+        "rowNumber": "24",
+        "location": "WINDOW",
+        "seatId": "24F",
+        "cabinClass": "ECONOMY",
+        "cabinLayout": "ABC DEF",
+        "price": {
+          "totalAmount": 17.7,
+          "currency": "GBP"
+        },
+        "availability": {
+          "value": true,
+          "conditions": [
+            "SEAT_NOT_ALLOWED_FOR_INFANT"
+          ]
+        }
+      }
+    ],
+    [
+      {
+        "rowNumber": "25",
+        "location": "WINDOW",
+        "seatId": "25A",
+        "cabinClass": "ECONOMY",
+        "cabinLayout": "ABC DEF",
+        "price": {
+          "totalAmount": 17.7,
+          "currency": "GBP"
+        },
+        "availability": {
+          "value": true,
+          "conditions": [
+            "SEAT_WITH_FACILITIES_FOR_HANDICAPPED",
+            "SEAT_WITH_FACILITIES_FOR_HANDICAPPED_INCAPACITATED_PASSENGER"
+          ]
+        }
+      },
+      {
+        "rowNumber": "25",
+        "location": "CENTER",
+        "seatId": "25B",
+        "cabinClass": "PREFERENTIAL",
+        "cabinLayout": "ABC DEF",
+        "price": {
+          "totalAmount": 17.7,
+          "currency": "GBP"
+        },
+        "availability": {
+          "value": true,
+          "conditions": []
+        }
+      },
+      {
+        "rowNumber": "25",
+        "location": "AISLE",
+        "seatId": "25C",
+        "cabinClass": "ECONOMY",
+        "cabinLayout": "ABC DEF",
+        "price": {
+          "totalAmount": 17.7,
+          "currency": "GBP"
+        },
+        "availability": {
+          "value": true,
+          "conditions": [
+            "SEAT_NOT_SUITABLE_FOR_CHILD"
+          ]
+        }
+      },
+      {
+        "rowNumber": "25",
+        "location": "AISLE",
+        "seatId": "25D",
+        "cabinClass": "ECONOMY",
+        "cabinLayout": "ABC DEF",
+        "price": {
+          "totalAmount": 17.7,
+          "currency": "GBP"
+        },
+        "availability": {
+          "value": true,
+          "conditions": [
+            "SEAT_NOT_SUITABLE_FOR_CHILD",
+            "SEAT_NOT_ALLOWED_FOR_INFANT"
+          ]
+        }
+      },
+      {
+        "rowNumber": "25",
+        "location": "CENTER",
+        "seatId": "25E",
+        "cabinClass": "PREFERENTIAL",
+        "cabinLayout": "ABC DEF",
+        "price": {
+          "totalAmount": 17.7,
+          "currency": "GBP"
+        },
+        "availability": {
+          "value": true,
+          "conditions": [
+            "SEAT_NOT_ALLOWED_FOR_INFANT"
+          ]
+        }
+      },
+      {
+        "rowNumber": "25",
+        "location": "WINDOW",
+        "seatId": "25F",
+        "cabinClass": "ECONOMY",
+        "cabinLayout": "ABC DEF",
+        "price": {
+          "totalAmount": 17.7,
+          "currency": "GBP"
+        },
+        "availability": {
+          "value": true,
+          "conditions": [
+            "SEAT_NOT_ALLOWED_FOR_INFANT",
+            "SEAT_WITH_FACILITIES_FOR_HANDICAPPED",
+            "SEAT_WITH_FACILITIES_FOR_HANDICAPPED_INCAPACITATED_PASSENGER"
+          ]
+        }
+      }
+    ],
+    [
+      {
+        "rowNumber": "26",
+        "location": "WINDOW",
+        "seatId": "26A",
+        "cabinClass": "ECONOMY",
+        "cabinLayout": "ABC DEF",
+        "price": {
+          "totalAmount": 0.0,
+          "currency": ""
+        },
+        "availability": {
+          "value": false,
+          "conditions": [
+            "SEAT_SUITABLE_FOR_UNACCOMPANIED_MINORS"
+          ]
+        }
+      },
+      {
+        "rowNumber": "26",
+        "location": "CENTER",
+        "seatId": "26B",
+        "cabinClass": "PREFERENTIAL",
+        "cabinLayout": "ABC DEF",
+        "price": {
+          "totalAmount": 0.0,
+          "currency": ""
+        },
+        "availability": {
+          "value": false,
+          "conditions": [
+            "SEAT_SUITABLE_FOR_UNACCOMPANIED_MINORS"
+          ]
+        }
+      },
+      {
+        "rowNumber": "26",
+        "location": "AISLE",
+        "seatId": "26C",
+        "cabinClass": "ECONOMY",
+        "cabinLayout": "ABC DEF",
+        "price": {
+          "totalAmount": 0.0,
+          "currency": ""
+        },
+        "availability": {
+          "value": false,
+          "conditions": [
+            "SEAT_NOT_SUITABLE_FOR_CHILD",
+            "SEAT_SUITABLE_FOR_UNACCOMPANIED_MINORS"
+          ]
+        }
+      },
+      {
+        "rowNumber": "26",
+        "location": "AISLE",
+        "seatId": "26D",
+        "cabinClass": "ECONOMY",
+        "cabinLayout": "ABC DEF",
+        "price": {
+          "totalAmount": 0.0,
+          "currency": ""
+        },
+        "availability": {
+          "value": false,
+          "conditions": [
+            "SEAT_NOT_SUITABLE_FOR_CHILD",
+            "SEAT_NOT_ALLOWED_FOR_INFANT",
+            "SEAT_SUITABLE_FOR_UNACCOMPANIED_MINORS"
+          ]
+        }
+      },
+      {
+        "rowNumber": "26",
+        "location": "CENTER",
+        "seatId": "26E",
+        "cabinClass": "PREFERENTIAL",
+        "cabinLayout": "ABC DEF",
+        "price": {
+          "totalAmount": 0.0,
+          "currency": ""
+        },
+        "availability": {
+          "value": false,
+          "conditions": [
+            "SEAT_NOT_ALLOWED_FOR_INFANT",
+            "SEAT_SUITABLE_FOR_UNACCOMPANIED_MINORS"
+          ]
+        }
+      },
+      {
+        "rowNumber": "26",
+        "location": "WINDOW",
+        "seatId": "26F",
+        "cabinClass": "ECONOMY",
+        "cabinLayout": "ABC DEF",
+        "price": {
+          "totalAmount": 0.0,
+          "currency": ""
+        },
+        "availability": {
+          "value": false,
+          "conditions": [
+            "SEAT_NOT_ALLOWED_FOR_INFANT",
+            "SEAT_SUITABLE_FOR_UNACCOMPANIED_MINORS"
+          ]
+        }
+      }
+    ],
+    [
+      {
+        "rowNumber": "27",
+        "location": "WINDOW",
+        "seatId": "27A",
+        "cabinClass": "ECONOMY",
+        "cabinLayout": "ABC DEF",
+        "price": {
+          "totalAmount": 11.5,
+          "currency": "GBP"
+        },
+        "availability": {
+          "value": true,
+          "conditions": [
+            "SEAT_SUITABLE_FOR_ADULT_WITH_AN_INFANT",
+            "REAR_FACING_SEAT"
+          ]
+        }
+      },
+      {
+        "rowNumber": "27",
+        "location": "CENTER",
+        "seatId": "27B",
+        "cabinClass": "ECONOMY",
+        "cabinLayout": "ABC DEF",
+        "price": {
+          "totalAmount": 11.5,
+          "currency": "GBP"
+        },
+        "availability": {
+          "value": true,
+          "conditions": [
+            "REAR_FACING_SEAT"
+          ]
+        }
+      },
+      {
+        "rowNumber": "27",
+        "location": "AISLE",
+        "seatId": "27C",
+        "cabinClass": "ECONOMY",
+        "cabinLayout": "ABC DEF",
+        "price": {
+          "totalAmount": 11.5,
+          "currency": "GBP"
+        },
+        "availability": {
+          "value": true,
+          "conditions": [
+            "SEAT_NOT_SUITABLE_FOR_CHILD",
+            "REAR_FACING_SEAT"
+          ]
+        }
+      },
+      {
+        "rowNumber": "27",
+        "location": "AISLE",
+        "seatId": "27D",
+        "cabinClass": "ECONOMY",
+        "cabinLayout": "ABC DEF",
+        "price": {
+          "totalAmount": 11.5,
+          "currency": "GBP"
+        },
+        "availability": {
+          "value": true,
+          "conditions": [
+            "SEAT_NOT_SUITABLE_FOR_CHILD",
+            "SEAT_NOT_ALLOWED_FOR_INFANT",
+            "REAR_FACING_SEAT"
+          ]
+        }
+      },
+      {
+        "rowNumber": "27",
+        "location": "CENTER",
+        "seatId": "27E",
+        "cabinClass": "ECONOMY",
+        "cabinLayout": "ABC DEF",
+        "price": {
+          "totalAmount": 11.5,
+          "currency": "GBP"
+        },
+        "availability": {
+          "value": true,
+          "conditions": [
+            "SEAT_NOT_ALLOWED_FOR_INFANT",
+            "REAR_FACING_SEAT"
+          ]
+        }
+      },
+      {
+        "rowNumber": "27",
+        "location": "WINDOW",
+        "seatId": "27F",
+        "cabinClass": "ECONOMY",
+        "cabinLayout": "ABC DEF",
+        "price": {
+          "totalAmount": 11.5,
+          "currency": "GBP"
+        },
+        "availability": {
+          "value": true,
+          "conditions": [
+            "SEAT_NOT_ALLOWED_FOR_INFANT",
+            "REAR_FACING_SEAT"
+          ]
+        }
+      }
+    ],
+    [
+      {
+        "rowNumber": "28",
+        "location": "WINDOW",
+        "seatId": "28A",
+        "cabinClass": "ECONOMY",
+        "cabinLayout": "ABC DEF",
+        "price": {
+          "totalAmount": 11.5,
+          "currency": "GBP"
+        },
+        "availability": {
+          "value": true,
+          "conditions": [
+            "SEAT_NOT_ALLOWED_FOR_INFANT",
+            "REAR_FACING_SEAT"
+          ]
+        }
+      },
+      {
+        "rowNumber": "28",
+        "location": "CENTER",
+        "seatId": "28B",
+        "cabinClass": "ECONOMY",
+        "cabinLayout": "ABC DEF",
+        "price": {
+          "totalAmount": 11.5,
+          "currency": "GBP"
+        },
+        "availability": {
+          "value": true,
+          "conditions": [
+            "SEAT_NOT_ALLOWED_FOR_INFANT",
+            "REAR_FACING_SEAT"
+          ]
+        }
+      },
+      {
+        "rowNumber": "28",
+        "location": "AISLE",
+        "seatId": "28C",
+        "cabinClass": "ECONOMY",
+        "cabinLayout": "ABC DEF",
+        "price": {
+          "totalAmount": 11.5,
+          "currency": "GBP"
+        },
+        "availability": {
+          "value": true,
+          "conditions": [
+            "SEAT_NOT_SUITABLE_FOR_CHILD",
+            "SEAT_NOT_ALLOWED_FOR_INFANT",
+            "REAR_FACING_SEAT"
+          ]
+        }
+      },
+      {
+        "rowNumber": "28",
+        "location": "AISLE",
+        "seatId": "28D",
+        "cabinClass": "ECONOMY",
+        "cabinLayout": "ABC DEF",
+        "price": {
+          "totalAmount": 11.5,
+          "currency": "GBP"
+        },
+        "availability": {
+          "value": true,
+          "conditions": [
+            "SEAT_NOT_SUITABLE_FOR_CHILD",
+            "REAR_FACING_SEAT"
+          ]
+        }
+      },
+      {
+        "rowNumber": "28",
+        "location": "CENTER",
+        "seatId": "28E",
+        "cabinClass": "ECONOMY",
+        "cabinLayout": "ABC DEF",
+        "price": {
+          "totalAmount": 11.5,
+          "currency": "GBP"
+        },
+        "availability": {
+          "value": true,
+          "conditions": [
+            "REAR_FACING_SEAT"
+          ]
+        }
+      },
+      {
+        "rowNumber": "28",
+        "location": "WINDOW",
+        "seatId": "28F",
+        "cabinClass": "ECONOMY",
+        "cabinLayout": "ABC DEF",
+        "price": {
+          "totalAmount": 11.5,
+          "currency": "GBP"
+        },
+        "availability": {
+          "value": true,
+          "conditions": [
+            "SEAT_SUITABLE_FOR_ADULT_WITH_AN_INFANT",
+            "REAR_FACING_SEAT"
+          ]
+        }
+      }
+    ],
+    [
+      {
+        "rowNumber": "29",
+        "location": "WINDOW",
+        "seatId": "29A",
+        "cabinClass": "ECONOMY",
+        "cabinLayout": "ABC DEF",
+        "price": {
+          "totalAmount": 11.5,
+          "currency": "GBP"
+        },
+        "availability": {
+          "value": true,
+          "conditions": [
+            "SEAT_NOT_ALLOWED_FOR_INFANT",
+            "REAR_FACING_SEAT"
+          ]
+        }
+      },
+      {
+        "rowNumber": "29",
+        "location": "CENTER",
+        "seatId": "29B",
+        "cabinClass": "ECONOMY",
+        "cabinLayout": "ABC DEF",
+        "price": {
+          "totalAmount": 11.5,
+          "currency": "GBP"
+        },
+        "availability": {
+          "value": true,
+          "conditions": [
+            "SEAT_NOT_ALLOWED_FOR_INFANT",
+            "REAR_FACING_SEAT"
+          ]
+        }
+      },
+      {
+        "rowNumber": "29",
+        "location": "AISLE",
+        "seatId": "29C",
+        "cabinClass": "ECONOMY",
+        "cabinLayout": "ABC DEF",
+        "price": {
+          "totalAmount": 11.5,
+          "currency": "GBP"
+        },
+        "availability": {
+          "value": true,
+          "conditions": [
+            "SEAT_NOT_SUITABLE_FOR_CHILD",
+            "SEAT_NOT_ALLOWED_FOR_INFANT",
+            "REAR_FACING_SEAT"
+          ]
+        }
+      },
+      {
+        "rowNumber": "29",
+        "location": "AISLE",
+        "seatId": "29D",
+        "cabinClass": "ECONOMY",
+        "cabinLayout": "ABC DEF",
+        "price": {
+          "totalAmount": 11.5,
+          "currency": "GBP"
+        },
+        "availability": {
+          "value": true,
+          "conditions": [
+            "SEAT_NOT_SUITABLE_FOR_CHILD",
+            "REAR_FACING_SEAT"
+          ]
+        }
+      },
+      {
+        "rowNumber": "29",
+        "location": "CENTER",
+        "seatId": "29E",
+        "cabinClass": "ECONOMY",
+        "cabinLayout": "ABC DEF",
+        "price": {
+          "totalAmount": 11.5,
+          "currency": "GBP"
+        },
+        "availability": {
+          "value": true,
+          "conditions": [
+            "REAR_FACING_SEAT"
+          ]
+        }
+      },
+      {
+        "rowNumber": "29",
+        "location": "WINDOW",
+        "seatId": "29F",
+        "cabinClass": "ECONOMY",
+        "cabinLayout": "ABC DEF",
+        "price": {
+          "totalAmount": 11.5,
+          "currency": "GBP"
+        },
+        "availability": {
+          "value": true,
+          "conditions": [
+            "SEAT_SUITABLE_FOR_ADULT_WITH_AN_INFANT",
+            "REAR_FACING_SEAT"
+          ]
+        }
+      }
+    ],
+    [
+      {
+        "rowNumber": "30",
+        "location": "WINDOW",
+        "seatId": "30A",
+        "cabinClass": "ECONOMY",
+        "cabinLayout": "ABC DEF",
+        "price": {
+          "totalAmount": 0.0,
+          "currency": ""
+        },
+        "availability": {
+          "value": false,
+          "conditions": [
+            "SEAT_NOT_ALLOWED_FOR_INFANT",
+            "RESTRICTED_RECLINE_SEAT",
+            "SEAT_TO_BE_LEFT_VACANT_OR_OFFERED_LAST",
+            "REAR_FACING_SEAT"
+          ]
+        }
+      },
+      {
+        "rowNumber": "30",
+        "location": "CENTER",
+        "seatId": "30B",
+        "cabinClass": "ECONOMY",
+        "cabinLayout": "ABC DEF",
+        "price": {
+          "totalAmount": 0.0,
+          "currency": ""
+        },
+        "availability": {
+          "value": false,
+          "conditions": [
+            "SEAT_NOT_ALLOWED_FOR_INFANT",
+            "RESTRICTED_RECLINE_SEAT",
+            "SEAT_TO_BE_LEFT_VACANT_OR_OFFERED_LAST",
+            "REAR_FACING_SEAT"
+          ]
+        }
+      },
+      {
+        "rowNumber": "30",
+        "location": "AISLE",
+        "seatId": "30C",
+        "cabinClass": "ECONOMY",
+        "cabinLayout": "ABC DEF",
+        "price": {
+          "totalAmount": 0.0,
+          "currency": ""
+        },
+        "availability": {
+          "value": false,
+          "conditions": [
+            "SEAT_NOT_SUITABLE_FOR_CHILD",
+            "SEAT_NOT_ALLOWED_FOR_INFANT",
+            "RESTRICTED_RECLINE_SEAT",
+            "SEAT_TO_BE_LEFT_VACANT_OR_OFFERED_LAST",
+            "REAR_FACING_SEAT"
+          ]
+        }
+      },
+      {
+        "rowNumber": "30",
+        "location": "AISLE",
+        "seatId": "30D",
+        "cabinClass": "ECONOMY",
+        "cabinLayout": "ABC DEF",
+        "price": {
+          "totalAmount": 0.0,
+          "currency": ""
+        },
+        "availability": {
+          "value": false,
+          "conditions": [
+            "SEAT_NOT_SUITABLE_FOR_CHILD",
+            "RESTRICTED_RECLINE_SEAT",
+            "REAR_FACING_SEAT",
+            "CREW_SEAT"
+          ]
+        }
+      },
+      {
+        "rowNumber": "30",
+        "location": "CENTER",
+        "seatId": "30E",
+        "cabinClass": "ECONOMY",
+        "cabinLayout": "ABC DEF",
+        "price": {
+          "totalAmount": 0.0,
+          "currency": ""
+        },
+        "availability": {
+          "value": false,
+          "conditions": [
+            "RESTRICTED_RECLINE_SEAT",
+            "REAR_FACING_SEAT",
+            "CREW_SEAT"
+          ]
+        }
+      },
+      {
+        "rowNumber": "30",
+        "location": "WINDOW",
+        "seatId": "30F",
+        "cabinClass": "ECONOMY",
+        "cabinLayout": "ABC DEF",
+        "price": {
+          "totalAmount": 0.0,
+          "currency": ""
+        },
+        "availability": {
+          "value": false,
+          "conditions": [
+            "RESTRICTED_RECLINE_SEAT",
+            "REAR_FACING_SEAT",
+            "CREW_SEAT"
+          ]
+        }
+      }
+    ]
+  ]
+}

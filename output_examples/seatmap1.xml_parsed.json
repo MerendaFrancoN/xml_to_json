@@ -1,0 +1,2943 @@
+{
+  "flightData": {
+    "departureAirportCode": "LAS",
+    "arrivalAirportCode": "IAH",
+    "airEquipCode": "739",
+    "flightNumber": "1179",
+    "departureDateTime": "2020-11-22T15:30:00"
+  },
+  "seatsData": [
+    [
+      {
+        "rowNumber": "1",
+        "location": "WINDOW",
+        "seatId": "1A",
+        "cabinClass": "FIRST",
+        "cabinLayout": "AB EF",
+        "price": {
+          "totalAmount": 0.0,
+          "currency": ""
+        },
+        "availability": {
+          "value": false,
+          "conditions": []
+        }
+      },
+      {
+        "rowNumber": "1",
+        "location": "AISLE",
+        "seatId": "1B",
+        "cabinClass": "FIRST",
+        "cabinLayout": "AB EF",
+        "price": {
+          "totalAmount": 0.0,
+          "currency": ""
+        },
+        "availability": {
+          "value": false,
+          "conditions": []
+        }
+      },
+      {
+        "rowNumber": "1",
+        "location": "AISLE",
+        "seatId": "1E",
+        "cabinClass": "FIRST",
+        "cabinLayout": "AB EF",
+        "price": {
+          "totalAmount": 0.0,
+          "currency": ""
+        },
+        "availability": {
+          "value": false,
+          "conditions": []
+        }
+      },
+      {
+        "rowNumber": "1",
+        "location": "WINDOW",
+        "seatId": "1F",
+        "cabinClass": "FIRST",
+        "cabinLayout": "AB EF",
+        "price": {
+          "totalAmount": 0.0,
+          "currency": ""
+        },
+        "availability": {
+          "value": false,
+          "conditions": []
+        }
+      }
+    ],
+    [
+      {
+        "rowNumber": "2",
+        "location": "WINDOW",
+        "seatId": "2A",
+        "cabinClass": "FIRST",
+        "cabinLayout": "AB EF",
+        "price": {
+          "totalAmount": 0.0,
+          "currency": ""
+        },
+        "availability": {
+          "value": false,
+          "conditions": []
+        }
+      },
+      {
+        "rowNumber": "2",
+        "location": "AISLE",
+        "seatId": "2B",
+        "cabinClass": "FIRST",
+        "cabinLayout": "AB EF",
+        "price": {
+          "totalAmount": 0.0,
+          "currency": ""
+        },
+        "availability": {
+          "value": false,
+          "conditions": []
+        }
+      },
+      {
+        "rowNumber": "2",
+        "location": "AISLE",
+        "seatId": "2E",
+        "cabinClass": "FIRST",
+        "cabinLayout": "AB EF",
+        "price": {
+          "totalAmount": 0.0,
+          "currency": ""
+        },
+        "availability": {
+          "value": false,
+          "conditions": []
+        }
+      },
+      {
+        "rowNumber": "2",
+        "location": "WINDOW",
+        "seatId": "2F",
+        "cabinClass": "FIRST",
+        "cabinLayout": "AB EF",
+        "price": {
+          "totalAmount": 0.0,
+          "currency": ""
+        },
+        "availability": {
+          "value": false,
+          "conditions": []
+        }
+      }
+    ],
+    [
+      {
+        "rowNumber": "7",
+        "location": "NO_INFO",
+        "seatId": "7A",
+        "cabinClass": "ECONOMY",
+        "cabinLayout": "ABC DEF",
+        "price": {
+          "totalAmount": 0.0,
+          "currency": ""
+        },
+        "availability": {
+          "value": false,
+          "conditions": [
+            "LAVATORY"
+          ]
+        }
+      },
+      {
+        "rowNumber": "7",
+        "location": "NO_INFO",
+        "seatId": "7B",
+        "cabinClass": "ECONOMY",
+        "cabinLayout": "ABC DEF",
+        "price": {
+          "totalAmount": 0.0,
+          "currency": ""
+        },
+        "availability": {
+          "value": false,
+          "conditions": [
+            "LAVATORY"
+          ]
+        }
+      },
+      {
+        "rowNumber": "7",
+        "location": "NO_INFO",
+        "seatId": "7C",
+        "cabinClass": "ECONOMY",
+        "cabinLayout": "ABC DEF",
+        "price": {
+          "totalAmount": 0.0,
+          "currency": ""
+        },
+        "availability": {
+          "value": false,
+          "conditions": [
+            "LAVATORY"
+          ]
+        }
+      },
+      {
+        "rowNumber": "7",
+        "location": "AISLE",
+        "seatId": "7D",
+        "cabinClass": "ECONOMY",
+        "cabinLayout": "ABC DEF",
+        "price": {
+          "totalAmount": 0.0,
+          "currency": ""
+        },
+        "availability": {
+          "value": false,
+          "conditions": [
+            "BLOCKED_SEAT_PERMANENT"
+          ]
+        }
+      },
+      {
+        "rowNumber": "7",
+        "location": "CENTER",
+        "seatId": "7E",
+        "cabinClass": "ECONOMY",
+        "cabinLayout": "ABC DEF",
+        "price": {
+          "totalAmount": 0.0,
+          "currency": ""
+        },
+        "availability": {
+          "value": false,
+          "conditions": [
+            "BLOCKED_SEAT_PERMANENT"
+          ]
+        }
+      },
+      {
+        "rowNumber": "7",
+        "location": "WINDOW",
+        "seatId": "7F",
+        "cabinClass": "ECONOMY",
+        "cabinLayout": "ABC DEF",
+        "price": {
+          "totalAmount": 0.0,
+          "currency": ""
+        },
+        "availability": {
+          "value": false,
+          "conditions": []
+        }
+      }
+    ],
+    [
+      {
+        "rowNumber": "8",
+        "location": "WINDOW",
+        "seatId": "8A",
+        "cabinClass": "ECONOMY",
+        "cabinLayout": "ABC DEF",
+        "price": {
+          "totalAmount": 0.0,
+          "currency": ""
+        },
+        "availability": {
+          "value": false,
+          "conditions": [
+            "RESTRICTED_RECLINE_SEAT"
+          ]
+        }
+      },
+      {
+        "rowNumber": "8",
+        "location": "CENTER",
+        "seatId": "8B",
+        "cabinClass": "ECONOMY",
+        "cabinLayout": "ABC DEF",
+        "price": {
+          "totalAmount": 0.0,
+          "currency": ""
+        },
+        "availability": {
+          "value": false,
+          "conditions": [
+            "RESTRICTED_RECLINE_SEAT"
+          ]
+        }
+      },
+      {
+        "rowNumber": "8",
+        "location": "AISLE",
+        "seatId": "8C",
+        "cabinClass": "ECONOMY",
+        "cabinLayout": "ABC DEF",
+        "price": {
+          "totalAmount": 0.0,
+          "currency": ""
+        },
+        "availability": {
+          "value": false,
+          "conditions": [
+            "RESTRICTED_RECLINE_SEAT"
+          ]
+        }
+      },
+      {
+        "rowNumber": "8",
+        "location": "AISLE",
+        "seatId": "8D",
+        "cabinClass": "ECONOMY",
+        "cabinLayout": "ABC DEF",
+        "price": {
+          "totalAmount": 0.0,
+          "currency": ""
+        },
+        "availability": {
+          "value": false,
+          "conditions": []
+        }
+      },
+      {
+        "rowNumber": "8",
+        "location": "CENTER",
+        "seatId": "8E",
+        "cabinClass": "ECONOMY",
+        "cabinLayout": "ABC DEF",
+        "price": {
+          "totalAmount": 0.0,
+          "currency": ""
+        },
+        "availability": {
+          "value": false,
+          "conditions": []
+        }
+      },
+      {
+        "rowNumber": "8",
+        "location": "WINDOW",
+        "seatId": "8F",
+        "cabinClass": "ECONOMY",
+        "cabinLayout": "ABC DEF",
+        "price": {
+          "totalAmount": 0.0,
+          "currency": ""
+        },
+        "availability": {
+          "value": false,
+          "conditions": []
+        }
+      }
+    ],
+    [
+      {
+        "rowNumber": "9",
+        "location": "WINDOW",
+        "seatId": "9A",
+        "cabinClass": "ECONOMY",
+        "cabinLayout": "ABC DEF",
+        "price": {
+          "totalAmount": 0.0,
+          "currency": ""
+        },
+        "availability": {
+          "value": false,
+          "conditions": []
+        }
+      },
+      {
+        "rowNumber": "9",
+        "location": "CENTER",
+        "seatId": "9B",
+        "cabinClass": "ECONOMY",
+        "cabinLayout": "ABC DEF",
+        "price": {
+          "totalAmount": 0.0,
+          "currency": ""
+        },
+        "availability": {
+          "value": false,
+          "conditions": []
+        }
+      },
+      {
+        "rowNumber": "9",
+        "location": "AISLE",
+        "seatId": "9C",
+        "cabinClass": "ECONOMY",
+        "cabinLayout": "ABC DEF",
+        "price": {
+          "totalAmount": 0.0,
+          "currency": ""
+        },
+        "availability": {
+          "value": false,
+          "conditions": []
+        }
+      },
+      {
+        "rowNumber": "9",
+        "location": "AISLE",
+        "seatId": "9D",
+        "cabinClass": "ECONOMY",
+        "cabinLayout": "ABC DEF",
+        "price": {
+          "totalAmount": 0.0,
+          "currency": ""
+        },
+        "availability": {
+          "value": false,
+          "conditions": []
+        }
+      },
+      {
+        "rowNumber": "9",
+        "location": "CENTER",
+        "seatId": "9E",
+        "cabinClass": "ECONOMY",
+        "cabinLayout": "ABC DEF",
+        "price": {
+          "totalAmount": 0.0,
+          "currency": ""
+        },
+        "availability": {
+          "value": false,
+          "conditions": []
+        }
+      },
+      {
+        "rowNumber": "9",
+        "location": "WINDOW",
+        "seatId": "9F",
+        "cabinClass": "ECONOMY",
+        "cabinLayout": "ABC DEF",
+        "price": {
+          "totalAmount": 0.0,
+          "currency": ""
+        },
+        "availability": {
+          "value": false,
+          "conditions": []
+        }
+      }
+    ],
+    [
+      {
+        "rowNumber": "10",
+        "location": "WINDOW",
+        "seatId": "10A",
+        "cabinClass": "ECONOMY",
+        "cabinLayout": "ABC DEF",
+        "price": {
+          "totalAmount": 0.0,
+          "currency": ""
+        },
+        "availability": {
+          "value": false,
+          "conditions": []
+        }
+      },
+      {
+        "rowNumber": "10",
+        "location": "CENTER",
+        "seatId": "10B",
+        "cabinClass": "ECONOMY",
+        "cabinLayout": "ABC DEF",
+        "price": {
+          "totalAmount": 0.0,
+          "currency": ""
+        },
+        "availability": {
+          "value": false,
+          "conditions": []
+        }
+      },
+      {
+        "rowNumber": "10",
+        "location": "AISLE",
+        "seatId": "10C",
+        "cabinClass": "ECONOMY",
+        "cabinLayout": "ABC DEF",
+        "price": {
+          "totalAmount": 0.0,
+          "currency": ""
+        },
+        "availability": {
+          "value": false,
+          "conditions": []
+        }
+      },
+      {
+        "rowNumber": "10",
+        "location": "AISLE",
+        "seatId": "10D",
+        "cabinClass": "ECONOMY",
+        "cabinLayout": "ABC DEF",
+        "price": {
+          "totalAmount": 0.0,
+          "currency": ""
+        },
+        "availability": {
+          "value": false,
+          "conditions": []
+        }
+      },
+      {
+        "rowNumber": "10",
+        "location": "CENTER",
+        "seatId": "10E",
+        "cabinClass": "ECONOMY",
+        "cabinLayout": "ABC DEF",
+        "price": {
+          "totalAmount": 0.0,
+          "currency": ""
+        },
+        "availability": {
+          "value": false,
+          "conditions": []
+        }
+      },
+      {
+        "rowNumber": "10",
+        "location": "WINDOW",
+        "seatId": "10F",
+        "cabinClass": "ECONOMY",
+        "cabinLayout": "ABC DEF",
+        "price": {
+          "totalAmount": 0.0,
+          "currency": ""
+        },
+        "availability": {
+          "value": false,
+          "conditions": []
+        }
+      }
+    ],
+    [
+      {
+        "rowNumber": "11",
+        "location": "WINDOW",
+        "seatId": "11A",
+        "cabinClass": "ECONOMY",
+        "cabinLayout": "ABC DEF",
+        "price": {
+          "totalAmount": 0.0,
+          "currency": ""
+        },
+        "availability": {
+          "value": false,
+          "conditions": []
+        }
+      },
+      {
+        "rowNumber": "11",
+        "location": "CENTER",
+        "seatId": "11B",
+        "cabinClass": "ECONOMY",
+        "cabinLayout": "ABC DEF",
+        "price": {
+          "totalAmount": 0.0,
+          "currency": ""
+        },
+        "availability": {
+          "value": false,
+          "conditions": []
+        }
+      },
+      {
+        "rowNumber": "11",
+        "location": "AISLE",
+        "seatId": "11C",
+        "cabinClass": "ECONOMY",
+        "cabinLayout": "ABC DEF",
+        "price": {
+          "totalAmount": 0.0,
+          "currency": ""
+        },
+        "availability": {
+          "value": false,
+          "conditions": []
+        }
+      },
+      {
+        "rowNumber": "11",
+        "location": "AISLE",
+        "seatId": "11D",
+        "cabinClass": "ECONOMY",
+        "cabinLayout": "ABC DEF",
+        "price": {
+          "totalAmount": 0.0,
+          "currency": ""
+        },
+        "availability": {
+          "value": false,
+          "conditions": []
+        }
+      },
+      {
+        "rowNumber": "11",
+        "location": "CENTER",
+        "seatId": "11E",
+        "cabinClass": "ECONOMY",
+        "cabinLayout": "ABC DEF",
+        "price": {
+          "totalAmount": 0.0,
+          "currency": ""
+        },
+        "availability": {
+          "value": false,
+          "conditions": []
+        }
+      },
+      {
+        "rowNumber": "11",
+        "location": "WINDOW",
+        "seatId": "11F",
+        "cabinClass": "ECONOMY",
+        "cabinLayout": "ABC DEF",
+        "price": {
+          "totalAmount": 0.0,
+          "currency": ""
+        },
+        "availability": {
+          "value": false,
+          "conditions": []
+        }
+      }
+    ],
+    [
+      {
+        "rowNumber": "12",
+        "location": "WINDOW",
+        "seatId": "12A",
+        "cabinClass": "ECONOMY",
+        "cabinLayout": "ABC DEF",
+        "price": {
+          "totalAmount": 0.0,
+          "currency": ""
+        },
+        "availability": {
+          "value": false,
+          "conditions": [
+            "CHARGEABLE"
+          ]
+        }
+      },
+      {
+        "rowNumber": "12",
+        "location": "CENTER",
+        "seatId": "12B",
+        "cabinClass": "ECONOMY",
+        "cabinLayout": "ABC DEF",
+        "price": {
+          "totalAmount": 0.0,
+          "currency": ""
+        },
+        "availability": {
+          "value": false,
+          "conditions": [
+            "CHARGEABLE"
+          ]
+        }
+      },
+      {
+        "rowNumber": "12",
+        "location": "AISLE",
+        "seatId": "12C",
+        "cabinClass": "ECONOMY",
+        "cabinLayout": "ABC DEF",
+        "price": {
+          "totalAmount": 4200.0,
+          "currency": "USD"
+        },
+        "availability": {
+          "value": true,
+          "conditions": [
+            "CHARGEABLE"
+          ]
+        }
+      },
+      {
+        "rowNumber": "12",
+        "location": "AISLE",
+        "seatId": "12D",
+        "cabinClass": "ECONOMY",
+        "cabinLayout": "ABC DEF",
+        "price": {
+          "totalAmount": 4200.0,
+          "currency": "USD"
+        },
+        "availability": {
+          "value": true,
+          "conditions": [
+            "CHARGEABLE"
+          ]
+        }
+      },
+      {
+        "rowNumber": "12",
+        "location": "CENTER",
+        "seatId": "12E",
+        "cabinClass": "ECONOMY",
+        "cabinLayout": "ABC DEF",
+        "price": {
+          "totalAmount": 0.0,
+          "currency": ""
+        },
+        "availability": {
+          "value": false,
+          "conditions": [
+            "CHARGEABLE"
+          ]
+        }
+      },
+      {
+        "rowNumber": "12",
+        "location": "WINDOW",
+        "seatId": "12F",
+        "cabinClass": "ECONOMY",
+        "cabinLayout": "ABC DEF",
+        "price": {
+          "totalAmount": 0.0,
+          "currency": ""
+        },
+        "availability": {
+          "value": false,
+          "conditions": [
+            "CHARGEABLE"
+          ]
+        }
+      }
+    ],
+    [
+      {
+        "rowNumber": "14",
+        "location": "WINDOW",
+        "seatId": "14A",
+        "cabinClass": "ECONOMY",
+        "cabinLayout": "ABC DEF",
+        "price": {
+          "totalAmount": 2700.0,
+          "currency": "USD"
+        },
+        "availability": {
+          "value": true,
+          "conditions": [
+            "CHARGEABLE",
+            "WING"
+          ]
+        }
+      },
+      {
+        "rowNumber": "14",
+        "location": "CENTER",
+        "seatId": "14B",
+        "cabinClass": "ECONOMY",
+        "cabinLayout": "ABC DEF",
+        "price": {
+          "totalAmount": 2600.0,
+          "currency": "USD"
+        },
+        "availability": {
+          "value": true,
+          "conditions": [
+            "CHARGEABLE",
+            "WING"
+          ]
+        }
+      },
+      {
+        "rowNumber": "14",
+        "location": "AISLE",
+        "seatId": "14C",
+        "cabinClass": "ECONOMY",
+        "cabinLayout": "ABC DEF",
+        "price": {
+          "totalAmount": 4200.0,
+          "currency": "USD"
+        },
+        "availability": {
+          "value": true,
+          "conditions": [
+            "CHARGEABLE",
+            "WING"
+          ]
+        }
+      },
+      {
+        "rowNumber": "14",
+        "location": "AISLE",
+        "seatId": "14D",
+        "cabinClass": "ECONOMY",
+        "cabinLayout": "ABC DEF",
+        "price": {
+          "totalAmount": 4200.0,
+          "currency": "USD"
+        },
+        "availability": {
+          "value": true,
+          "conditions": [
+            "CHARGEABLE",
+            "WING"
+          ]
+        }
+      },
+      {
+        "rowNumber": "14",
+        "location": "CENTER",
+        "seatId": "14E",
+        "cabinClass": "ECONOMY",
+        "cabinLayout": "ABC DEF",
+        "price": {
+          "totalAmount": 2600.0,
+          "currency": "USD"
+        },
+        "availability": {
+          "value": true,
+          "conditions": [
+            "CHARGEABLE",
+            "WING"
+          ]
+        }
+      },
+      {
+        "rowNumber": "14",
+        "location": "WINDOW",
+        "seatId": "14F",
+        "cabinClass": "ECONOMY",
+        "cabinLayout": "ABC DEF",
+        "price": {
+          "totalAmount": 2700.0,
+          "currency": "USD"
+        },
+        "availability": {
+          "value": true,
+          "conditions": [
+            "CHARGEABLE",
+            "WING"
+          ]
+        }
+      }
+    ],
+    [
+      {
+        "rowNumber": "15",
+        "location": "WINDOW",
+        "seatId": "15A",
+        "cabinClass": "ECONOMY",
+        "cabinLayout": "ABC DEF",
+        "price": {
+          "totalAmount": 2700.0,
+          "currency": "USD"
+        },
+        "availability": {
+          "value": true,
+          "conditions": [
+            "CHARGEABLE",
+            "WING"
+          ]
+        }
+      },
+      {
+        "rowNumber": "15",
+        "location": "CENTER",
+        "seatId": "15B",
+        "cabinClass": "ECONOMY",
+        "cabinLayout": "ABC DEF",
+        "price": {
+          "totalAmount": 2600.0,
+          "currency": "USD"
+        },
+        "availability": {
+          "value": true,
+          "conditions": [
+            "CHARGEABLE",
+            "WING"
+          ]
+        }
+      },
+      {
+        "rowNumber": "15",
+        "location": "AISLE",
+        "seatId": "15C",
+        "cabinClass": "ECONOMY",
+        "cabinLayout": "ABC DEF",
+        "price": {
+          "totalAmount": 4200.0,
+          "currency": "USD"
+        },
+        "availability": {
+          "value": true,
+          "conditions": [
+            "CHARGEABLE",
+            "WING"
+          ]
+        }
+      },
+      {
+        "rowNumber": "15",
+        "location": "AISLE",
+        "seatId": "15D",
+        "cabinClass": "ECONOMY",
+        "cabinLayout": "ABC DEF",
+        "price": {
+          "totalAmount": 4200.0,
+          "currency": "USD"
+        },
+        "availability": {
+          "value": true,
+          "conditions": [
+            "CHARGEABLE",
+            "WING"
+          ]
+        }
+      },
+      {
+        "rowNumber": "15",
+        "location": "CENTER",
+        "seatId": "15E",
+        "cabinClass": "ECONOMY",
+        "cabinLayout": "ABC DEF",
+        "price": {
+          "totalAmount": 2600.0,
+          "currency": "USD"
+        },
+        "availability": {
+          "value": true,
+          "conditions": [
+            "CHARGEABLE",
+            "WING"
+          ]
+        }
+      },
+      {
+        "rowNumber": "15",
+        "location": "WINDOW",
+        "seatId": "15F",
+        "cabinClass": "ECONOMY",
+        "cabinLayout": "ABC DEF",
+        "price": {
+          "totalAmount": 2700.0,
+          "currency": "USD"
+        },
+        "availability": {
+          "value": true,
+          "conditions": [
+            "CHARGEABLE",
+            "WING"
+          ]
+        }
+      }
+    ],
+    [
+      {
+        "rowNumber": "20",
+        "location": "WINDOW",
+        "seatId": "20A",
+        "cabinClass": "ECONOMY",
+        "cabinLayout": "ABC DEF",
+        "price": {
+          "totalAmount": 0.0,
+          "currency": ""
+        },
+        "availability": {
+          "value": false,
+          "conditions": [
+            "EXIT",
+            "RESTRICTED_RECLINE_SEAT",
+            "WING"
+          ]
+        }
+      },
+      {
+        "rowNumber": "20",
+        "location": "CENTER",
+        "seatId": "20B",
+        "cabinClass": "ECONOMY",
+        "cabinLayout": "ABC DEF",
+        "price": {
+          "totalAmount": 0.0,
+          "currency": ""
+        },
+        "availability": {
+          "value": false,
+          "conditions": [
+            "EXIT",
+            "RESTRICTED_RECLINE_SEAT",
+            "WING"
+          ]
+        }
+      },
+      {
+        "rowNumber": "20",
+        "location": "AISLE",
+        "seatId": "20C",
+        "cabinClass": "ECONOMY",
+        "cabinLayout": "ABC DEF",
+        "price": {
+          "totalAmount": 0.0,
+          "currency": ""
+        },
+        "availability": {
+          "value": false,
+          "conditions": [
+            "EXIT",
+            "RESTRICTED_RECLINE_SEAT",
+            "WING"
+          ]
+        }
+      },
+      {
+        "rowNumber": "20",
+        "location": "AISLE",
+        "seatId": "20D",
+        "cabinClass": "ECONOMY",
+        "cabinLayout": "ABC DEF",
+        "price": {
+          "totalAmount": 0.0,
+          "currency": ""
+        },
+        "availability": {
+          "value": false,
+          "conditions": [
+            "EXIT",
+            "RESTRICTED_RECLINE_SEAT",
+            "WING"
+          ]
+        }
+      },
+      {
+        "rowNumber": "20",
+        "location": "CENTER",
+        "seatId": "20E",
+        "cabinClass": "ECONOMY",
+        "cabinLayout": "ABC DEF",
+        "price": {
+          "totalAmount": 0.0,
+          "currency": ""
+        },
+        "availability": {
+          "value": false,
+          "conditions": [
+            "EXIT",
+            "RESTRICTED_RECLINE_SEAT",
+            "WING"
+          ]
+        }
+      },
+      {
+        "rowNumber": "20",
+        "location": "WINDOW",
+        "seatId": "20F",
+        "cabinClass": "ECONOMY",
+        "cabinLayout": "ABC DEF",
+        "price": {
+          "totalAmount": 0.0,
+          "currency": ""
+        },
+        "availability": {
+          "value": false,
+          "conditions": [
+            "EXIT",
+            "RESTRICTED_RECLINE_SEAT",
+            "WING"
+          ]
+        }
+      }
+    ],
+    [
+      {
+        "rowNumber": "21",
+        "location": "WINDOW",
+        "seatId": "21A",
+        "cabinClass": "ECONOMY",
+        "cabinLayout": "ABC DEF",
+        "price": {
+          "totalAmount": 0.0,
+          "currency": ""
+        },
+        "availability": {
+          "value": false,
+          "conditions": [
+            "EXIT",
+            "WING"
+          ]
+        }
+      },
+      {
+        "rowNumber": "21",
+        "location": "CENTER",
+        "seatId": "21B",
+        "cabinClass": "ECONOMY",
+        "cabinLayout": "ABC DEF",
+        "price": {
+          "totalAmount": 0.0,
+          "currency": ""
+        },
+        "availability": {
+          "value": false,
+          "conditions": [
+            "EXIT",
+            "WING"
+          ]
+        }
+      },
+      {
+        "rowNumber": "21",
+        "location": "AISLE",
+        "seatId": "21C",
+        "cabinClass": "ECONOMY",
+        "cabinLayout": "ABC DEF",
+        "price": {
+          "totalAmount": 0.0,
+          "currency": ""
+        },
+        "availability": {
+          "value": false,
+          "conditions": [
+            "EXIT",
+            "WING"
+          ]
+        }
+      },
+      {
+        "rowNumber": "21",
+        "location": "AISLE",
+        "seatId": "21D",
+        "cabinClass": "ECONOMY",
+        "cabinLayout": "ABC DEF",
+        "price": {
+          "totalAmount": 0.0,
+          "currency": ""
+        },
+        "availability": {
+          "value": false,
+          "conditions": [
+            "EXIT",
+            "WING"
+          ]
+        }
+      },
+      {
+        "rowNumber": "21",
+        "location": "CENTER",
+        "seatId": "21E",
+        "cabinClass": "ECONOMY",
+        "cabinLayout": "ABC DEF",
+        "price": {
+          "totalAmount": 0.0,
+          "currency": ""
+        },
+        "availability": {
+          "value": false,
+          "conditions": [
+            "EXIT",
+            "WING"
+          ]
+        }
+      },
+      {
+        "rowNumber": "21",
+        "location": "WINDOW",
+        "seatId": "21F",
+        "cabinClass": "ECONOMY",
+        "cabinLayout": "ABC DEF",
+        "price": {
+          "totalAmount": 0.0,
+          "currency": ""
+        },
+        "availability": {
+          "value": false,
+          "conditions": [
+            "EXIT",
+            "WING"
+          ]
+        }
+      }
+    ],
+    [
+      {
+        "rowNumber": "22",
+        "location": "WINDOW",
+        "seatId": "22A",
+        "cabinClass": "ECONOMY",
+        "cabinLayout": "ABC DEF",
+        "price": {
+          "totalAmount": 2700.0,
+          "currency": "USD"
+        },
+        "availability": {
+          "value": true,
+          "conditions": [
+            "CHARGEABLE",
+            "WING"
+          ]
+        }
+      },
+      {
+        "rowNumber": "22",
+        "location": "CENTER",
+        "seatId": "22B",
+        "cabinClass": "ECONOMY",
+        "cabinLayout": "ABC DEF",
+        "price": {
+          "totalAmount": 1200.0,
+          "currency": "USD"
+        },
+        "availability": {
+          "value": true,
+          "conditions": [
+            "CHARGEABLE",
+            "WING"
+          ]
+        }
+      },
+      {
+        "rowNumber": "22",
+        "location": "AISLE",
+        "seatId": "22C",
+        "cabinClass": "ECONOMY",
+        "cabinLayout": "ABC DEF",
+        "price": {
+          "totalAmount": 4200.0,
+          "currency": "USD"
+        },
+        "availability": {
+          "value": true,
+          "conditions": [
+            "CHARGEABLE",
+            "WING"
+          ]
+        }
+      },
+      {
+        "rowNumber": "22",
+        "location": "AISLE",
+        "seatId": "22D",
+        "cabinClass": "ECONOMY",
+        "cabinLayout": "ABC DEF",
+        "price": {
+          "totalAmount": 4200.0,
+          "currency": "USD"
+        },
+        "availability": {
+          "value": true,
+          "conditions": [
+            "CHARGEABLE",
+            "WING"
+          ]
+        }
+      },
+      {
+        "rowNumber": "22",
+        "location": "CENTER",
+        "seatId": "22E",
+        "cabinClass": "ECONOMY",
+        "cabinLayout": "ABC DEF",
+        "price": {
+          "totalAmount": 1200.0,
+          "currency": "USD"
+        },
+        "availability": {
+          "value": true,
+          "conditions": [
+            "CHARGEABLE",
+            "WING"
+          ]
+        }
+      },
+      {
+        "rowNumber": "22",
+        "location": "WINDOW",
+        "seatId": "22F",
+        "cabinClass": "ECONOMY",
+        "cabinLayout": "ABC DEF",
+        "price": {
+          "totalAmount": 2700.0,
+          "currency": "USD"
+        },
+        "availability": {
+          "value": true,
+          "conditions": [
+            "CHARGEABLE",
+            "WING"
+          ]
+        }
+      }
+    ],
+    [
+      {
+        "rowNumber": "23",
+        "location": "WINDOW",
+        "seatId": "23A",
+        "cabinClass": "ECONOMY",
+        "cabinLayout": "ABC DEF",
+        "price": {
+          "totalAmount": 2700.0,
+          "currency": "USD"
+        },
+        "availability": {
+          "value": true,
+          "conditions": [
+            "CHARGEABLE",
+            "WING"
+          ]
+        }
+      },
+      {
+        "rowNumber": "23",
+        "location": "CENTER",
+        "seatId": "23B",
+        "cabinClass": "ECONOMY",
+        "cabinLayout": "ABC DEF",
+        "price": {
+          "totalAmount": 0.0,
+          "currency": ""
+        },
+        "availability": {
+          "value": false,
+          "conditions": [
+            "CHARGEABLE",
+            "BLOCKED_SEAT_PERMANENT",
+            "WING"
+          ]
+        }
+      },
+      {
+        "rowNumber": "23",
+        "location": "AISLE",
+        "seatId": "23C",
+        "cabinClass": "ECONOMY",
+        "cabinLayout": "ABC DEF",
+        "price": {
+          "totalAmount": 0.0,
+          "currency": ""
+        },
+        "availability": {
+          "value": false,
+          "conditions": [
+            "CHARGEABLE",
+            "BLOCKED_SEAT_PERMANENT",
+            "WING"
+          ]
+        }
+      },
+      {
+        "rowNumber": "23",
+        "location": "AISLE",
+        "seatId": "23D",
+        "cabinClass": "ECONOMY",
+        "cabinLayout": "ABC DEF",
+        "price": {
+          "totalAmount": 4200.0,
+          "currency": "USD"
+        },
+        "availability": {
+          "value": true,
+          "conditions": [
+            "CHARGEABLE",
+            "WING"
+          ]
+        }
+      },
+      {
+        "rowNumber": "23",
+        "location": "CENTER",
+        "seatId": "23E",
+        "cabinClass": "ECONOMY",
+        "cabinLayout": "ABC DEF",
+        "price": {
+          "totalAmount": 1200.0,
+          "currency": "USD"
+        },
+        "availability": {
+          "value": true,
+          "conditions": [
+            "CHARGEABLE",
+            "WING"
+          ]
+        }
+      },
+      {
+        "rowNumber": "23",
+        "location": "WINDOW",
+        "seatId": "23F",
+        "cabinClass": "ECONOMY",
+        "cabinLayout": "ABC DEF",
+        "price": {
+          "totalAmount": 2700.0,
+          "currency": "USD"
+        },
+        "availability": {
+          "value": true,
+          "conditions": [
+            "CHARGEABLE",
+            "WING"
+          ]
+        }
+      }
+    ],
+    [
+      {
+        "rowNumber": "24",
+        "location": "WINDOW",
+        "seatId": "24A",
+        "cabinClass": "ECONOMY",
+        "cabinLayout": "ABC DEF",
+        "price": {
+          "totalAmount": 2700.0,
+          "currency": "USD"
+        },
+        "availability": {
+          "value": true,
+          "conditions": [
+            "CHARGEABLE",
+            "WING"
+          ]
+        }
+      },
+      {
+        "rowNumber": "24",
+        "location": "CENTER",
+        "seatId": "24B",
+        "cabinClass": "ECONOMY",
+        "cabinLayout": "ABC DEF",
+        "price": {
+          "totalAmount": 1200.0,
+          "currency": "USD"
+        },
+        "availability": {
+          "value": true,
+          "conditions": [
+            "CHARGEABLE",
+            "WING"
+          ]
+        }
+      },
+      {
+        "rowNumber": "24",
+        "location": "AISLE",
+        "seatId": "24C",
+        "cabinClass": "ECONOMY",
+        "cabinLayout": "ABC DEF",
+        "price": {
+          "totalAmount": 4200.0,
+          "currency": "USD"
+        },
+        "availability": {
+          "value": true,
+          "conditions": [
+            "CHARGEABLE",
+            "WING"
+          ]
+        }
+      },
+      {
+        "rowNumber": "24",
+        "location": "AISLE",
+        "seatId": "24D",
+        "cabinClass": "ECONOMY",
+        "cabinLayout": "ABC DEF",
+        "price": {
+          "totalAmount": 4200.0,
+          "currency": "USD"
+        },
+        "availability": {
+          "value": true,
+          "conditions": [
+            "CHARGEABLE",
+            "WING"
+          ]
+        }
+      },
+      {
+        "rowNumber": "24",
+        "location": "CENTER",
+        "seatId": "24E",
+        "cabinClass": "ECONOMY",
+        "cabinLayout": "ABC DEF",
+        "price": {
+          "totalAmount": 1200.0,
+          "currency": "USD"
+        },
+        "availability": {
+          "value": true,
+          "conditions": [
+            "CHARGEABLE",
+            "WING"
+          ]
+        }
+      },
+      {
+        "rowNumber": "24",
+        "location": "WINDOW",
+        "seatId": "24F",
+        "cabinClass": "ECONOMY",
+        "cabinLayout": "ABC DEF",
+        "price": {
+          "totalAmount": 2700.0,
+          "currency": "USD"
+        },
+        "availability": {
+          "value": true,
+          "conditions": [
+            "CHARGEABLE",
+            "WING"
+          ]
+        }
+      }
+    ],
+    [
+      {
+        "rowNumber": "25",
+        "location": "WINDOW",
+        "seatId": "25A",
+        "cabinClass": "ECONOMY",
+        "cabinLayout": "ABC DEF",
+        "price": {
+          "totalAmount": 2700.0,
+          "currency": "USD"
+        },
+        "availability": {
+          "value": true,
+          "conditions": [
+            "CHARGEABLE"
+          ]
+        }
+      },
+      {
+        "rowNumber": "25",
+        "location": "CENTER",
+        "seatId": "25B",
+        "cabinClass": "ECONOMY",
+        "cabinLayout": "ABC DEF",
+        "price": {
+          "totalAmount": 0.0,
+          "currency": ""
+        },
+        "availability": {
+          "value": false,
+          "conditions": [
+            "CHARGEABLE",
+            "BLOCKED_SEAT_PERMANENT"
+          ]
+        }
+      },
+      {
+        "rowNumber": "25",
+        "location": "AISLE",
+        "seatId": "25C",
+        "cabinClass": "ECONOMY",
+        "cabinLayout": "ABC DEF",
+        "price": {
+          "totalAmount": 0.0,
+          "currency": ""
+        },
+        "availability": {
+          "value": false,
+          "conditions": [
+            "CHARGEABLE",
+            "BLOCKED_SEAT_PERMANENT"
+          ]
+        }
+      },
+      {
+        "rowNumber": "25",
+        "location": "AISLE",
+        "seatId": "25D",
+        "cabinClass": "ECONOMY",
+        "cabinLayout": "ABC DEF",
+        "price": {
+          "totalAmount": 4200.0,
+          "currency": "USD"
+        },
+        "availability": {
+          "value": true,
+          "conditions": [
+            "CHARGEABLE"
+          ]
+        }
+      },
+      {
+        "rowNumber": "25",
+        "location": "CENTER",
+        "seatId": "25E",
+        "cabinClass": "ECONOMY",
+        "cabinLayout": "ABC DEF",
+        "price": {
+          "totalAmount": 1200.0,
+          "currency": "USD"
+        },
+        "availability": {
+          "value": true,
+          "conditions": [
+            "CHARGEABLE"
+          ]
+        }
+      },
+      {
+        "rowNumber": "25",
+        "location": "WINDOW",
+        "seatId": "25F",
+        "cabinClass": "ECONOMY",
+        "cabinLayout": "ABC DEF",
+        "price": {
+          "totalAmount": 2700.0,
+          "currency": "USD"
+        },
+        "availability": {
+          "value": true,
+          "conditions": [
+            "CHARGEABLE"
+          ]
+        }
+      }
+    ],
+    [
+      {
+        "rowNumber": "26",
+        "location": "WINDOW",
+        "seatId": "26A",
+        "cabinClass": "ECONOMY",
+        "cabinLayout": "ABC DEF",
+        "price": {
+          "totalAmount": 2700.0,
+          "currency": "USD"
+        },
+        "availability": {
+          "value": true,
+          "conditions": [
+            "CHARGEABLE"
+          ]
+        }
+      },
+      {
+        "rowNumber": "26",
+        "location": "CENTER",
+        "seatId": "26B",
+        "cabinClass": "ECONOMY",
+        "cabinLayout": "ABC DEF",
+        "price": {
+          "totalAmount": 1200.0,
+          "currency": "USD"
+        },
+        "availability": {
+          "value": true,
+          "conditions": [
+            "CHARGEABLE"
+          ]
+        }
+      },
+      {
+        "rowNumber": "26",
+        "location": "AISLE",
+        "seatId": "26C",
+        "cabinClass": "ECONOMY",
+        "cabinLayout": "ABC DEF",
+        "price": {
+          "totalAmount": 4200.0,
+          "currency": "USD"
+        },
+        "availability": {
+          "value": true,
+          "conditions": [
+            "CHARGEABLE"
+          ]
+        }
+      },
+      {
+        "rowNumber": "26",
+        "location": "AISLE",
+        "seatId": "26D",
+        "cabinClass": "ECONOMY",
+        "cabinLayout": "ABC DEF",
+        "price": {
+          "totalAmount": 4200.0,
+          "currency": "USD"
+        },
+        "availability": {
+          "value": true,
+          "conditions": [
+            "CHARGEABLE"
+          ]
+        }
+      },
+      {
+        "rowNumber": "26",
+        "location": "CENTER",
+        "seatId": "26E",
+        "cabinClass": "ECONOMY",
+        "cabinLayout": "ABC DEF",
+        "price": {
+          "totalAmount": 1200.0,
+          "currency": "USD"
+        },
+        "availability": {
+          "value": true,
+          "conditions": [
+            "CHARGEABLE"
+          ]
+        }
+      },
+      {
+        "rowNumber": "26",
+        "location": "WINDOW",
+        "seatId": "26F",
+        "cabinClass": "ECONOMY",
+        "cabinLayout": "ABC DEF",
+        "price": {
+          "totalAmount": 2700.0,
+          "currency": "USD"
+        },
+        "availability": {
+          "value": true,
+          "conditions": [
+            "CHARGEABLE"
+          ]
+        }
+      }
+    ],
+    [
+      {
+        "rowNumber": "27",
+        "location": "WINDOW",
+        "seatId": "27A",
+        "cabinClass": "ECONOMY",
+        "cabinLayout": "ABC DEF",
+        "price": {
+          "totalAmount": 1300.0,
+          "currency": "USD"
+        },
+        "availability": {
+          "value": true,
+          "conditions": [
+            "CHARGEABLE"
+          ]
+        }
+      },
+      {
+        "rowNumber": "27",
+        "location": "CENTER",
+        "seatId": "27B",
+        "cabinClass": "ECONOMY",
+        "cabinLayout": "ABC DEF",
+        "price": {
+          "totalAmount": 0.0,
+          "currency": ""
+        },
+        "availability": {
+          "value": false,
+          "conditions": [
+            "CHARGEABLE"
+          ]
+        }
+      },
+      {
+        "rowNumber": "27",
+        "location": "AISLE",
+        "seatId": "27C",
+        "cabinClass": "ECONOMY",
+        "cabinLayout": "ABC DEF",
+        "price": {
+          "totalAmount": 0.0,
+          "currency": ""
+        },
+        "availability": {
+          "value": false,
+          "conditions": [
+            "CHARGEABLE"
+          ]
+        }
+      },
+      {
+        "rowNumber": "27",
+        "location": "AISLE",
+        "seatId": "27D",
+        "cabinClass": "ECONOMY",
+        "cabinLayout": "ABC DEF",
+        "price": {
+          "totalAmount": 1800.0,
+          "currency": "USD"
+        },
+        "availability": {
+          "value": true,
+          "conditions": [
+            "CHARGEABLE"
+          ]
+        }
+      },
+      {
+        "rowNumber": "27",
+        "location": "CENTER",
+        "seatId": "27E",
+        "cabinClass": "ECONOMY",
+        "cabinLayout": "ABC DEF",
+        "price": {
+          "totalAmount": 1200.0,
+          "currency": "USD"
+        },
+        "availability": {
+          "value": true,
+          "conditions": [
+            "CHARGEABLE"
+          ]
+        }
+      },
+      {
+        "rowNumber": "27",
+        "location": "WINDOW",
+        "seatId": "27F",
+        "cabinClass": "ECONOMY",
+        "cabinLayout": "ABC DEF",
+        "price": {
+          "totalAmount": 1300.0,
+          "currency": "USD"
+        },
+        "availability": {
+          "value": true,
+          "conditions": [
+            "CHARGEABLE"
+          ]
+        }
+      }
+    ],
+    [
+      {
+        "rowNumber": "28",
+        "location": "WINDOW",
+        "seatId": "28A",
+        "cabinClass": "ECONOMY",
+        "cabinLayout": "ABC DEF",
+        "price": {
+          "totalAmount": 1300.0,
+          "currency": "USD"
+        },
+        "availability": {
+          "value": true,
+          "conditions": [
+            "CHARGEABLE"
+          ]
+        }
+      },
+      {
+        "rowNumber": "28",
+        "location": "CENTER",
+        "seatId": "28B",
+        "cabinClass": "ECONOMY",
+        "cabinLayout": "ABC DEF",
+        "price": {
+          "totalAmount": 1200.0,
+          "currency": "USD"
+        },
+        "availability": {
+          "value": true,
+          "conditions": [
+            "CHARGEABLE"
+          ]
+        }
+      },
+      {
+        "rowNumber": "28",
+        "location": "AISLE",
+        "seatId": "28C",
+        "cabinClass": "ECONOMY",
+        "cabinLayout": "ABC DEF",
+        "price": {
+          "totalAmount": 1800.0,
+          "currency": "USD"
+        },
+        "availability": {
+          "value": true,
+          "conditions": [
+            "CHARGEABLE"
+          ]
+        }
+      },
+      {
+        "rowNumber": "28",
+        "location": "AISLE",
+        "seatId": "28D",
+        "cabinClass": "ECONOMY",
+        "cabinLayout": "ABC DEF",
+        "price": {
+          "totalAmount": 0.0,
+          "currency": ""
+        },
+        "availability": {
+          "value": false,
+          "conditions": [
+            "CHARGEABLE"
+          ]
+        }
+      },
+      {
+        "rowNumber": "28",
+        "location": "CENTER",
+        "seatId": "28E",
+        "cabinClass": "ECONOMY",
+        "cabinLayout": "ABC DEF",
+        "price": {
+          "totalAmount": 1200.0,
+          "currency": "USD"
+        },
+        "availability": {
+          "value": true,
+          "conditions": [
+            "CHARGEABLE"
+          ]
+        }
+      },
+      {
+        "rowNumber": "28",
+        "location": "WINDOW",
+        "seatId": "28F",
+        "cabinClass": "ECONOMY",
+        "cabinLayout": "ABC DEF",
+        "price": {
+          "totalAmount": 1300.0,
+          "currency": "USD"
+        },
+        "availability": {
+          "value": true,
+          "conditions": [
+            "CHARGEABLE"
+          ]
+        }
+      }
+    ],
+    [
+      {
+        "rowNumber": "29",
+        "location": "WINDOW",
+        "seatId": "29A",
+        "cabinClass": "ECONOMY",
+        "cabinLayout": "ABC DEF",
+        "price": {
+          "totalAmount": 1300.0,
+          "currency": "USD"
+        },
+        "availability": {
+          "value": true,
+          "conditions": [
+            "CHARGEABLE"
+          ]
+        }
+      },
+      {
+        "rowNumber": "29",
+        "location": "CENTER",
+        "seatId": "29B",
+        "cabinClass": "ECONOMY",
+        "cabinLayout": "ABC DEF",
+        "price": {
+          "totalAmount": 1200.0,
+          "currency": "USD"
+        },
+        "availability": {
+          "value": true,
+          "conditions": [
+            "CHARGEABLE"
+          ]
+        }
+      },
+      {
+        "rowNumber": "29",
+        "location": "AISLE",
+        "seatId": "29C",
+        "cabinClass": "ECONOMY",
+        "cabinLayout": "ABC DEF",
+        "price": {
+          "totalAmount": 1800.0,
+          "currency": "USD"
+        },
+        "availability": {
+          "value": true,
+          "conditions": [
+            "CHARGEABLE"
+          ]
+        }
+      },
+      {
+        "rowNumber": "29",
+        "location": "AISLE",
+        "seatId": "29D",
+        "cabinClass": "ECONOMY",
+        "cabinLayout": "ABC DEF",
+        "price": {
+          "totalAmount": 1800.0,
+          "currency": "USD"
+        },
+        "availability": {
+          "value": true,
+          "conditions": [
+            "CHARGEABLE"
+          ]
+        }
+      },
+      {
+        "rowNumber": "29",
+        "location": "CENTER",
+        "seatId": "29E",
+        "cabinClass": "ECONOMY",
+        "cabinLayout": "ABC DEF",
+        "price": {
+          "totalAmount": 1200.0,
+          "currency": "USD"
+        },
+        "availability": {
+          "value": true,
+          "conditions": [
+            "CHARGEABLE"
+          ]
+        }
+      },
+      {
+        "rowNumber": "29",
+        "location": "WINDOW",
+        "seatId": "29F",
+        "cabinClass": "ECONOMY",
+        "cabinLayout": "ABC DEF",
+        "price": {
+          "totalAmount": 1300.0,
+          "currency": "USD"
+        },
+        "availability": {
+          "value": true,
+          "conditions": [
+            "CHARGEABLE"
+          ]
+        }
+      }
+    ],
+    [
+      {
+        "rowNumber": "30",
+        "location": "WINDOW",
+        "seatId": "30A",
+        "cabinClass": "ECONOMY",
+        "cabinLayout": "ABC DEF",
+        "price": {
+          "totalAmount": 1300.0,
+          "currency": "USD"
+        },
+        "availability": {
+          "value": true,
+          "conditions": [
+            "CHARGEABLE"
+          ]
+        }
+      },
+      {
+        "rowNumber": "30",
+        "location": "CENTER",
+        "seatId": "30B",
+        "cabinClass": "ECONOMY",
+        "cabinLayout": "ABC DEF",
+        "price": {
+          "totalAmount": 1200.0,
+          "currency": "USD"
+        },
+        "availability": {
+          "value": true,
+          "conditions": [
+            "CHARGEABLE"
+          ]
+        }
+      },
+      {
+        "rowNumber": "30",
+        "location": "AISLE",
+        "seatId": "30C",
+        "cabinClass": "ECONOMY",
+        "cabinLayout": "ABC DEF",
+        "price": {
+          "totalAmount": 1800.0,
+          "currency": "USD"
+        },
+        "availability": {
+          "value": true,
+          "conditions": [
+            "CHARGEABLE"
+          ]
+        }
+      },
+      {
+        "rowNumber": "30",
+        "location": "AISLE",
+        "seatId": "30D",
+        "cabinClass": "ECONOMY",
+        "cabinLayout": "ABC DEF",
+        "price": {
+          "totalAmount": 1800.0,
+          "currency": "USD"
+        },
+        "availability": {
+          "value": true,
+          "conditions": [
+            "CHARGEABLE"
+          ]
+        }
+      },
+      {
+        "rowNumber": "30",
+        "location": "CENTER",
+        "seatId": "30E",
+        "cabinClass": "ECONOMY",
+        "cabinLayout": "ABC DEF",
+        "price": {
+          "totalAmount": 1200.0,
+          "currency": "USD"
+        },
+        "availability": {
+          "value": true,
+          "conditions": [
+            "CHARGEABLE"
+          ]
+        }
+      },
+      {
+        "rowNumber": "30",
+        "location": "WINDOW",
+        "seatId": "30F",
+        "cabinClass": "ECONOMY",
+        "cabinLayout": "ABC DEF",
+        "price": {
+          "totalAmount": 1300.0,
+          "currency": "USD"
+        },
+        "availability": {
+          "value": true,
+          "conditions": [
+            "CHARGEABLE"
+          ]
+        }
+      }
+    ],
+    [
+      {
+        "rowNumber": "31",
+        "location": "WINDOW",
+        "seatId": "31A",
+        "cabinClass": "ECONOMY",
+        "cabinLayout": "ABC DEF",
+        "price": {
+          "totalAmount": 1300.0,
+          "currency": "USD"
+        },
+        "availability": {
+          "value": true,
+          "conditions": [
+            "CHARGEABLE"
+          ]
+        }
+      },
+      {
+        "rowNumber": "31",
+        "location": "CENTER",
+        "seatId": "31B",
+        "cabinClass": "ECONOMY",
+        "cabinLayout": "ABC DEF",
+        "price": {
+          "totalAmount": 1200.0,
+          "currency": "USD"
+        },
+        "availability": {
+          "value": true,
+          "conditions": [
+            "CHARGEABLE"
+          ]
+        }
+      },
+      {
+        "rowNumber": "31",
+        "location": "AISLE",
+        "seatId": "31C",
+        "cabinClass": "ECONOMY",
+        "cabinLayout": "ABC DEF",
+        "price": {
+          "totalAmount": 1800.0,
+          "currency": "USD"
+        },
+        "availability": {
+          "value": true,
+          "conditions": [
+            "CHARGEABLE"
+          ]
+        }
+      },
+      {
+        "rowNumber": "31",
+        "location": "AISLE",
+        "seatId": "31D",
+        "cabinClass": "ECONOMY",
+        "cabinLayout": "ABC DEF",
+        "price": {
+          "totalAmount": 1800.0,
+          "currency": "USD"
+        },
+        "availability": {
+          "value": true,
+          "conditions": [
+            "CHARGEABLE"
+          ]
+        }
+      },
+      {
+        "rowNumber": "31",
+        "location": "CENTER",
+        "seatId": "31E",
+        "cabinClass": "ECONOMY",
+        "cabinLayout": "ABC DEF",
+        "price": {
+          "totalAmount": 1200.0,
+          "currency": "USD"
+        },
+        "availability": {
+          "value": true,
+          "conditions": [
+            "CHARGEABLE"
+          ]
+        }
+      },
+      {
+        "rowNumber": "31",
+        "location": "WINDOW",
+        "seatId": "31F",
+        "cabinClass": "ECONOMY",
+        "cabinLayout": "ABC DEF",
+        "price": {
+          "totalAmount": 1300.0,
+          "currency": "USD"
+        },
+        "availability": {
+          "value": true,
+          "conditions": [
+            "CHARGEABLE"
+          ]
+        }
+      }
+    ],
+    [
+      {
+        "rowNumber": "32",
+        "location": "WINDOW",
+        "seatId": "32A",
+        "cabinClass": "ECONOMY",
+        "cabinLayout": "ABC DEF",
+        "price": {
+          "totalAmount": 1300.0,
+          "currency": "USD"
+        },
+        "availability": {
+          "value": true,
+          "conditions": [
+            "CHARGEABLE"
+          ]
+        }
+      },
+      {
+        "rowNumber": "32",
+        "location": "CENTER",
+        "seatId": "32B",
+        "cabinClass": "ECONOMY",
+        "cabinLayout": "ABC DEF",
+        "price": {
+          "totalAmount": 1200.0,
+          "currency": "USD"
+        },
+        "availability": {
+          "value": true,
+          "conditions": [
+            "CHARGEABLE"
+          ]
+        }
+      },
+      {
+        "rowNumber": "32",
+        "location": "AISLE",
+        "seatId": "32C",
+        "cabinClass": "ECONOMY",
+        "cabinLayout": "ABC DEF",
+        "price": {
+          "totalAmount": 1800.0,
+          "currency": "USD"
+        },
+        "availability": {
+          "value": true,
+          "conditions": [
+            "CHARGEABLE"
+          ]
+        }
+      },
+      {
+        "rowNumber": "32",
+        "location": "AISLE",
+        "seatId": "32D",
+        "cabinClass": "ECONOMY",
+        "cabinLayout": "ABC DEF",
+        "price": {
+          "totalAmount": 1800.0,
+          "currency": "USD"
+        },
+        "availability": {
+          "value": true,
+          "conditions": [
+            "CHARGEABLE"
+          ]
+        }
+      },
+      {
+        "rowNumber": "32",
+        "location": "CENTER",
+        "seatId": "32E",
+        "cabinClass": "ECONOMY",
+        "cabinLayout": "ABC DEF",
+        "price": {
+          "totalAmount": 1200.0,
+          "currency": "USD"
+        },
+        "availability": {
+          "value": true,
+          "conditions": [
+            "CHARGEABLE"
+          ]
+        }
+      },
+      {
+        "rowNumber": "32",
+        "location": "WINDOW",
+        "seatId": "32F",
+        "cabinClass": "ECONOMY",
+        "cabinLayout": "ABC DEF",
+        "price": {
+          "totalAmount": 1300.0,
+          "currency": "USD"
+        },
+        "availability": {
+          "value": true,
+          "conditions": [
+            "CHARGEABLE"
+          ]
+        }
+      }
+    ],
+    [
+      {
+        "rowNumber": "34",
+        "location": "WINDOW",
+        "seatId": "34A",
+        "cabinClass": "ECONOMY",
+        "cabinLayout": "ABC DEF",
+        "price": {
+          "totalAmount": 1300.0,
+          "currency": "USD"
+        },
+        "availability": {
+          "value": true,
+          "conditions": [
+            "CHARGEABLE"
+          ]
+        }
+      },
+      {
+        "rowNumber": "34",
+        "location": "CENTER",
+        "seatId": "34B",
+        "cabinClass": "ECONOMY",
+        "cabinLayout": "ABC DEF",
+        "price": {
+          "totalAmount": 1200.0,
+          "currency": "USD"
+        },
+        "availability": {
+          "value": true,
+          "conditions": [
+            "CHARGEABLE"
+          ]
+        }
+      },
+      {
+        "rowNumber": "34",
+        "location": "AISLE",
+        "seatId": "34C",
+        "cabinClass": "ECONOMY",
+        "cabinLayout": "ABC DEF",
+        "price": {
+          "totalAmount": 1800.0,
+          "currency": "USD"
+        },
+        "availability": {
+          "value": true,
+          "conditions": [
+            "CHARGEABLE"
+          ]
+        }
+      },
+      {
+        "rowNumber": "34",
+        "location": "AISLE",
+        "seatId": "34D",
+        "cabinClass": "ECONOMY",
+        "cabinLayout": "ABC DEF",
+        "price": {
+          "totalAmount": 1800.0,
+          "currency": "USD"
+        },
+        "availability": {
+          "value": true,
+          "conditions": [
+            "CHARGEABLE"
+          ]
+        }
+      },
+      {
+        "rowNumber": "34",
+        "location": "CENTER",
+        "seatId": "34E",
+        "cabinClass": "ECONOMY",
+        "cabinLayout": "ABC DEF",
+        "price": {
+          "totalAmount": 1200.0,
+          "currency": "USD"
+        },
+        "availability": {
+          "value": true,
+          "conditions": [
+            "CHARGEABLE"
+          ]
+        }
+      },
+      {
+        "rowNumber": "34",
+        "location": "WINDOW",
+        "seatId": "34F",
+        "cabinClass": "ECONOMY",
+        "cabinLayout": "ABC DEF",
+        "price": {
+          "totalAmount": 1300.0,
+          "currency": "USD"
+        },
+        "availability": {
+          "value": true,
+          "conditions": [
+            "CHARGEABLE"
+          ]
+        }
+      }
+    ],
+    [
+      {
+        "rowNumber": "35",
+        "location": "WINDOW",
+        "seatId": "35A",
+        "cabinClass": "ECONOMY",
+        "cabinLayout": "ABC DEF",
+        "price": {
+          "totalAmount": 1300.0,
+          "currency": "USD"
+        },
+        "availability": {
+          "value": true,
+          "conditions": [
+            "CHARGEABLE"
+          ]
+        }
+      },
+      {
+        "rowNumber": "35",
+        "location": "CENTER",
+        "seatId": "35B",
+        "cabinClass": "ECONOMY",
+        "cabinLayout": "ABC DEF",
+        "price": {
+          "totalAmount": 1200.0,
+          "currency": "USD"
+        },
+        "availability": {
+          "value": true,
+          "conditions": [
+            "CHARGEABLE"
+          ]
+        }
+      },
+      {
+        "rowNumber": "35",
+        "location": "AISLE",
+        "seatId": "35C",
+        "cabinClass": "ECONOMY",
+        "cabinLayout": "ABC DEF",
+        "price": {
+          "totalAmount": 1800.0,
+          "currency": "USD"
+        },
+        "availability": {
+          "value": true,
+          "conditions": [
+            "CHARGEABLE"
+          ]
+        }
+      },
+      {
+        "rowNumber": "35",
+        "location": "AISLE",
+        "seatId": "35D",
+        "cabinClass": "ECONOMY",
+        "cabinLayout": "ABC DEF",
+        "price": {
+          "totalAmount": 1800.0,
+          "currency": "USD"
+        },
+        "availability": {
+          "value": true,
+          "conditions": [
+            "CHARGEABLE"
+          ]
+        }
+      },
+      {
+        "rowNumber": "35",
+        "location": "CENTER",
+        "seatId": "35E",
+        "cabinClass": "ECONOMY",
+        "cabinLayout": "ABC DEF",
+        "price": {
+          "totalAmount": 1200.0,
+          "currency": "USD"
+        },
+        "availability": {
+          "value": true,
+          "conditions": [
+            "CHARGEABLE"
+          ]
+        }
+      },
+      {
+        "rowNumber": "35",
+        "location": "WINDOW",
+        "seatId": "35F",
+        "cabinClass": "ECONOMY",
+        "cabinLayout": "ABC DEF",
+        "price": {
+          "totalAmount": 1300.0,
+          "currency": "USD"
+        },
+        "availability": {
+          "value": true,
+          "conditions": [
+            "CHARGEABLE"
+          ]
+        }
+      }
+    ],
+    [
+      {
+        "rowNumber": "36",
+        "location": "WINDOW",
+        "seatId": "36A",
+        "cabinClass": "ECONOMY",
+        "cabinLayout": "ABC DEF",
+        "price": {
+          "totalAmount": 1300.0,
+          "currency": "USD"
+        },
+        "availability": {
+          "value": true,
+          "conditions": [
+            "CHARGEABLE"
+          ]
+        }
+      },
+      {
+        "rowNumber": "36",
+        "location": "CENTER",
+        "seatId": "36B",
+        "cabinClass": "ECONOMY",
+        "cabinLayout": "ABC DEF",
+        "price": {
+          "totalAmount": 1200.0,
+          "currency": "USD"
+        },
+        "availability": {
+          "value": true,
+          "conditions": [
+            "CHARGEABLE"
+          ]
+        }
+      },
+      {
+        "rowNumber": "36",
+        "location": "AISLE",
+        "seatId": "36C",
+        "cabinClass": "ECONOMY",
+        "cabinLayout": "ABC DEF",
+        "price": {
+          "totalAmount": 1800.0,
+          "currency": "USD"
+        },
+        "availability": {
+          "value": true,
+          "conditions": [
+            "CHARGEABLE"
+          ]
+        }
+      },
+      {
+        "rowNumber": "36",
+        "location": "AISLE",
+        "seatId": "36D",
+        "cabinClass": "ECONOMY",
+        "cabinLayout": "ABC DEF",
+        "price": {
+          "totalAmount": 1800.0,
+          "currency": "USD"
+        },
+        "availability": {
+          "value": true,
+          "conditions": [
+            "CHARGEABLE"
+          ]
+        }
+      },
+      {
+        "rowNumber": "36",
+        "location": "CENTER",
+        "seatId": "36E",
+        "cabinClass": "ECONOMY",
+        "cabinLayout": "ABC DEF",
+        "price": {
+          "totalAmount": 1200.0,
+          "currency": "USD"
+        },
+        "availability": {
+          "value": true,
+          "conditions": [
+            "CHARGEABLE"
+          ]
+        }
+      },
+      {
+        "rowNumber": "36",
+        "location": "WINDOW",
+        "seatId": "36F",
+        "cabinClass": "ECONOMY",
+        "cabinLayout": "ABC DEF",
+        "price": {
+          "totalAmount": 1300.0,
+          "currency": "USD"
+        },
+        "availability": {
+          "value": true,
+          "conditions": [
+            "CHARGEABLE"
+          ]
+        }
+      }
+    ],
+    [
+      {
+        "rowNumber": "37",
+        "location": "WINDOW",
+        "seatId": "37A",
+        "cabinClass": "ECONOMY",
+        "cabinLayout": "ABC DEF",
+        "price": {
+          "totalAmount": 1300.0,
+          "currency": "USD"
+        },
+        "availability": {
+          "value": true,
+          "conditions": [
+            "CHARGEABLE"
+          ]
+        }
+      },
+      {
+        "rowNumber": "37",
+        "location": "CENTER",
+        "seatId": "37B",
+        "cabinClass": "ECONOMY",
+        "cabinLayout": "ABC DEF",
+        "price": {
+          "totalAmount": 1200.0,
+          "currency": "USD"
+        },
+        "availability": {
+          "value": true,
+          "conditions": [
+            "CHARGEABLE"
+          ]
+        }
+      },
+      {
+        "rowNumber": "37",
+        "location": "AISLE",
+        "seatId": "37C",
+        "cabinClass": "ECONOMY",
+        "cabinLayout": "ABC DEF",
+        "price": {
+          "totalAmount": 1800.0,
+          "currency": "USD"
+        },
+        "availability": {
+          "value": true,
+          "conditions": [
+            "CHARGEABLE"
+          ]
+        }
+      },
+      {
+        "rowNumber": "37",
+        "location": "AISLE",
+        "seatId": "37D",
+        "cabinClass": "ECONOMY",
+        "cabinLayout": "ABC DEF",
+        "price": {
+          "totalAmount": 1800.0,
+          "currency": "USD"
+        },
+        "availability": {
+          "value": true,
+          "conditions": [
+            "CHARGEABLE"
+          ]
+        }
+      },
+      {
+        "rowNumber": "37",
+        "location": "CENTER",
+        "seatId": "37E",
+        "cabinClass": "ECONOMY",
+        "cabinLayout": "ABC DEF",
+        "price": {
+          "totalAmount": 1200.0,
+          "currency": "USD"
+        },
+        "availability": {
+          "value": true,
+          "conditions": [
+            "CHARGEABLE"
+          ]
+        }
+      },
+      {
+        "rowNumber": "37",
+        "location": "WINDOW",
+        "seatId": "37F",
+        "cabinClass": "ECONOMY",
+        "cabinLayout": "ABC DEF",
+        "price": {
+          "totalAmount": 1300.0,
+          "currency": "USD"
+        },
+        "availability": {
+          "value": true,
+          "conditions": [
+            "CHARGEABLE"
+          ]
+        }
+      }
+    ],
+    [
+      {
+        "rowNumber": "38",
+        "location": "WINDOW",
+        "seatId": "38A",
+        "cabinClass": "ECONOMY",
+        "cabinLayout": "ABC DEF",
+        "price": {
+          "totalAmount": 1300.0,
+          "currency": "USD"
+        },
+        "availability": {
+          "value": true,
+          "conditions": [
+            "CHARGEABLE"
+          ]
+        }
+      },
+      {
+        "rowNumber": "38",
+        "location": "CENTER",
+        "seatId": "38B",
+        "cabinClass": "ECONOMY",
+        "cabinLayout": "ABC DEF",
+        "price": {
+          "totalAmount": 1200.0,
+          "currency": "USD"
+        },
+        "availability": {
+          "value": true,
+          "conditions": [
+            "CHARGEABLE"
+          ]
+        }
+      },
+      {
+        "rowNumber": "38",
+        "location": "AISLE",
+        "seatId": "38C",
+        "cabinClass": "ECONOMY",
+        "cabinLayout": "ABC DEF",
+        "price": {
+          "totalAmount": 1800.0,
+          "currency": "USD"
+        },
+        "availability": {
+          "value": true,
+          "conditions": [
+            "CHARGEABLE"
+          ]
+        }
+      },
+      {
+        "rowNumber": "38",
+        "location": "AISLE",
+        "seatId": "38D",
+        "cabinClass": "ECONOMY",
+        "cabinLayout": "ABC DEF",
+        "price": {
+          "totalAmount": 1800.0,
+          "currency": "USD"
+        },
+        "availability": {
+          "value": true,
+          "conditions": [
+            "CHARGEABLE"
+          ]
+        }
+      },
+      {
+        "rowNumber": "38",
+        "location": "CENTER",
+        "seatId": "38E",
+        "cabinClass": "ECONOMY",
+        "cabinLayout": "ABC DEF",
+        "price": {
+          "totalAmount": 1200.0,
+          "currency": "USD"
+        },
+        "availability": {
+          "value": true,
+          "conditions": [
+            "CHARGEABLE"
+          ]
+        }
+      },
+      {
+        "rowNumber": "38",
+        "location": "WINDOW",
+        "seatId": "38F",
+        "cabinClass": "ECONOMY",
+        "cabinLayout": "ABC DEF",
+        "price": {
+          "totalAmount": 1300.0,
+          "currency": "USD"
+        },
+        "availability": {
+          "value": true,
+          "conditions": [
+            "CHARGEABLE"
+          ]
+        }
+      }
+    ],
+    [
+      {
+        "rowNumber": "39",
+        "location": "WINDOW",
+        "seatId": "39A",
+        "cabinClass": "ECONOMY",
+        "cabinLayout": "ABC DEF",
+        "price": {
+          "totalAmount": 0.0,
+          "currency": ""
+        },
+        "availability": {
+          "value": false,
+          "conditions": [
+            "CHARGEABLE"
+          ]
+        }
+      },
+      {
+        "rowNumber": "39",
+        "location": "CENTER",
+        "seatId": "39B",
+        "cabinClass": "ECONOMY",
+        "cabinLayout": "ABC DEF",
+        "price": {
+          "totalAmount": 1200.0,
+          "currency": "USD"
+        },
+        "availability": {
+          "value": true,
+          "conditions": [
+            "CHARGEABLE"
+          ]
+        }
+      },
+      {
+        "rowNumber": "39",
+        "location": "AISLE",
+        "seatId": "39C",
+        "cabinClass": "ECONOMY",
+        "cabinLayout": "ABC DEF",
+        "price": {
+          "totalAmount": 0.0,
+          "currency": ""
+        },
+        "availability": {
+          "value": false,
+          "conditions": []
+        }
+      },
+      {
+        "rowNumber": "39",
+        "location": "AISLE",
+        "seatId": "39D",
+        "cabinClass": "ECONOMY",
+        "cabinLayout": "ABC DEF",
+        "price": {
+          "totalAmount": 0.0,
+          "currency": ""
+        },
+        "availability": {
+          "value": false,
+          "conditions": []
+        }
+      },
+      {
+        "rowNumber": "39",
+        "location": "CENTER",
+        "seatId": "39E",
+        "cabinClass": "ECONOMY",
+        "cabinLayout": "ABC DEF",
+        "price": {
+          "totalAmount": 0.0,
+          "currency": ""
+        },
+        "availability": {
+          "value": false,
+          "conditions": []
+        }
+      },
+      {
+        "rowNumber": "39",
+        "location": "WINDOW",
+        "seatId": "39F",
+        "cabinClass": "ECONOMY",
+        "cabinLayout": "ABC DEF",
+        "price": {
+          "totalAmount": 0.0,
+          "currency": ""
+        },
+        "availability": {
+          "value": false,
+          "conditions": []
+        }
+      }
+    ]
+  ]
+}
