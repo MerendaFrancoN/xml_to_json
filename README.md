@@ -1,5 +1,7 @@
 # XML To JSON - Seatmaps
 
+Author: Merenda, Franco N.
+
 ## Problem assumptions
 
  * seatmap1.xml 
