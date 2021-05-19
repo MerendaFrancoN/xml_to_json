@@ -1,4 +1,5 @@
 import xml.etree.ElementTree as ET
+from app.xmlparser.parser_interface import SeatMapParserInterface
 from app.model.flight_info import FlightInfo
 from app.model.flight_seat import FlightSeat,SeatLocation, CabinType
 from app.model.availability import Availability, SeatCondition
@@ -6,7 +7,7 @@ from app.model.price import Price
 
 # Helpful link for a better understanding of fields meaning - 
 # https://files.developer.sabre.com/doc/providerdoc/Merchandising/EnhancedSeatMap_v6_User_Guide.pdf
-class SeatMap1Parser:
+class SeatMap1Parser(SeatMapParserInterface):
 
     __namespaces = {
         'soapenc': "http://schemas.xmlsoap.org/soap/encoding/",

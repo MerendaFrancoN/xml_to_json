@@ -1,7 +1,7 @@
 import sys
-from app.xmlparser.parser_seatmap1 import SeatMap1Parser
-from app.xmlparser.parser_seatmap2 import SeatMap2Parser
 from app.xmlparser.parser_selector import ParserSelector
+from app.xmlparser.parser_interface import SeatMapParserInterface
+
 
 from app.model.flight_output_data import FlightOutputData
 from app.json_writer.json_writer import JSONFileWriter
@@ -13,7 +13,7 @@ def run():
     parser = ParserSelector().getParser(input_filename)
     parseSeatMap(input_filename, parser)
 
-def parseSeatMap(input_filename, parser):
+def parseSeatMap(input_filename, parser : SeatMapParserInterface):
     flightSeatsByRow = parser.getFlightSeats()
     flightData = parser.getFlightInfo()
     flightOutputData = FlightOutputData(flightSeatsByRow, flightData)

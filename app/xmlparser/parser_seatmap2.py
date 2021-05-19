@@ -1,4 +1,5 @@
 import xml.etree.ElementTree as ET
+from app.xmlparser.parser_interface import SeatMapParserInterface
 from app.model.flight_info import FlightInfo
 from app.model.flight_seat import FlightSeat,SeatLocation, CabinType
 from app.model.availability import Availability, SeatCondition
@@ -7,7 +8,7 @@ from app.model.price import Price
 
 # Helpful link for a better understanding of fields meaning -
 # https://ndc.ba.com/docs/api/ -- Check SeatAvailabilityRS API
-class SeatMap2Parser:
+class SeatMap2Parser(SeatMapParserInterface):
 
     __namespaces = {
         'ns': "http://www.iata.org/IATA/EDIST/2017.2",
