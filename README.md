@@ -24,6 +24,7 @@
    - "rowNumber" - String indicating rowNumber of the seat
    - "location" - String indicating WINDOW,CENTER,AISLE, or NO_INFO seat location. Check **SeatLocation Enum**
    - "cabinClass" - String indicating class of the cabin, can be ECONOMY, FIRST or PREFERENTIAL. Check **CabinType Enum**
+   - "cabinLayout" - String indicating the layout of the seats, e.g. "ABC DEF", useful for display seats info on front
    - "seatId" - String of the number of the seat, e.g. "7B"
    - "price" - **Price** object with "totalAmount" and "currency" fields in it.
    - "availability" -  **Availability** object with "value" which can be true or false, and "conditions" which specify the conditions of the seat. Check **SeatCondition Enum**
@@ -36,6 +37,7 @@
         "location": "WINDOW",
         "seatId": "7A",
         "cabinClass": "ECONOMY",
+        "cabinLayout": "ABC DEF",
         "price": {
           "totalAmount": 22.1,
           "currency": "GBP"

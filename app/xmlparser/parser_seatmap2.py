@@ -79,9 +79,24 @@ class SeatMap2Parser(SeatMapParserInterface):
         return flightSeatList
     
     def __cabinLayoutDictToStr(self, cabinLayoutDict : dict):
-        cabinLayoutKeys = list(cabinLayoutDict.keys())
-        string =  "".join(cabinLayoutKeys)
-        return string
+        #Only get the first letter of each WINDOW, CENTAR, AISLE -- > W, C, A
+        cabinLayoutValue = list(map(lambda x: x[0] ,list(cabinLayoutDict.values())))
+        layoutValuesJoinedString =  "".join(cabinLayoutValue)
+        layoutKeys = list(cabinLayoutDict.keys())
+        previousValue = ""
+        stringToReturn = ""
+
+        #Idea - Check if previous is equal, must be a space between them
+        for index in range(len(layoutValuesJoinedString)):
+            value = layoutValuesJoinedString[index] 
+
+            if value == previousValue:
+                stringToReturn+=" "+layoutKeys[index]
+            else:
+                stringToReturn+=layoutKeys[index]
+            previousValue = value
+        
+        return stringToReturn
 
     def __parseCabinClass(self, seat):
         preferentialSeatClass = "SD16"
