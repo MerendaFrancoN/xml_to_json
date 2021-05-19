@@ -1,6 +1,7 @@
 import xml.etree.ElementTree as ET
 from app.model.flight_info import FlightInfo
-from app.model.flight_seat import Availability, FlightSeat, SeatCondition,SeatLocation, CabinType
+from app.model.flight_seat import FlightSeat,SeatLocation, CabinType
+from app.model.availability import Availability, SeatCondition
 from app.model.price import Price
 
 # --- Parsers ---- #

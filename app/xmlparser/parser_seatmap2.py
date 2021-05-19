@@ -1,6 +1,7 @@
 import xml.etree.ElementTree as ET
 from app.model.flight_info import FlightInfo
-from app.model.flight_seat import FlightSeat, Availability, SeatCondition, SeatLocation, CabinType
+from app.model.flight_seat import FlightSeat,SeatLocation, CabinType
+from app.model.availability import Availability, SeatCondition
 from app.model.price import Price
 
 
@@ -38,6 +39,7 @@ class Seat2MapParser:
         
         return offerItemsDict
 
+    # Returns seats by row
     def getFlightSeats(self):
         flightSeatList = []
         seatMapList = self.__fileRoot.findall("ns:SeatMap",self.__namespaces)
@@ -48,6 +50,7 @@ class Seat2MapParser:
             for row in seatRows:
                 rowNumber = row.find("ns:Number",self.__namespaces).text
                 seats = row.findall("ns:Seat",self.__namespaces)
+                seatsRowList = []
                 for seat in seats:
                     colNumber = seat.find("ns:Column",self.__namespaces).text
                     availability = self.__parseAvailability(seat)
@@ -56,7 +59,7 @@ class Seat2MapParser:
                         priceRef = seat.find("ns:OfferItemRefs",self.__namespaces).text
                         price = self.__offerItems[priceRef]
 
-                    flightSeatList.append(
+                    seatsRowList.append(
                         FlightSeat(
                             rowNumber = rowNumber,
                             seatId=str(rowNumber)+str(colNumber),
@@ -66,6 +69,7 @@ class Seat2MapParser:
                             price=price
                         )
                     )
+                flightSeatList.append(seatsRowList)
         
         return flightSeatList
     
