@@ -13,7 +13,8 @@
     - Set cabinType to PREFERENTIAL or ECONOMY according if seat has "SD16" definition
 
 ## JSON Output Format
-  For the standardized JSON Format, some of the fields works with an enum behind, in an attempt to unify both formats into one.
+  For the standardized JSON Format, I added beside the seats by row, the flight information.
+  Some of the fields works with an enum behind, in an attempt to unify both formats into one.
   In the JSON output will have two fields, 
   - "flightData" which is a quick info of the flight where the seats are from
   - "seatsData" which has the seats objects by row
