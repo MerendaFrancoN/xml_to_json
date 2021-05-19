@@ -9,15 +9,6 @@ class ComplexEncoder(json.JSONEncoder):
             return json.JSONEncoder.default(self, obj)
 
 class JSONFileWriter:
-
-    def flightSeatsToJson(self, flightSeats : list,output_filename: str):
-        jsonString = ""
-        for flightSeat in flightSeats:
-            jsonString+=json.dumps(flightSeat.jsonRepr(), cls=ComplexEncoder, indent=4)
-        
-        jsonFile = open(output_filename, "w")
-        jsonFile.write(jsonString)
-        jsonFile.close()
     
     def flightDataToJson(self, flightData: FlightOutputData, output_filename: str):
         jsonFile = open(output_filename, "w")
