@@ -1,4 +1,3 @@
-import json
 
 class Price:
     totalAmount = 0.0
@@ -9,9 +8,8 @@ class Price:
         self.currency = currency
 
     def jsonRepr(self):
-        jsonDict = {
+        return {
             "totalAmount": self.totalAmount,
             "currency": self.currency
         }
-        return jsonDict
 

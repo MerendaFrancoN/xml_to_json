@@ -1,22 +1,29 @@
 import sys
 from app.xmlparser.parser_seatmap1 import Seat1MapParser
 from app.xmlparser.parser_seatmap2 import Seat2MapParser
+from app.model.flight_output_data import FlightOutputData
 from app.json_writer.json_writer import JSONFileWriter
 
 
 def run():
-    print ('Number of arguments:', len(sys.argv), 'arguments.')
-    print ('Argument List:', str(sys.argv[1]))
-    # TODO -- Add control for args
-    fileParser1 = Seat1MapParser(sys.argv[1])
-    fileParser1.getFlightSeats()
-    jsonWriter = JSONFileWriter()
-    jsonWriter.flightSeatsByRowToJson(flightSeatsByRow=fileParser1.getFlightSeats(), flightData=fileParser1.getFlightInfo(),output_filename="data.json")
     
-    
-    #fileParser1 = Seat2MapParser(sys.argv[1])
-    #jsonWriter = JSONFileWriter()
-    #jsonWriter.flightSeatsToJson(flightSeats=fileParser1.getFlightSeats(),output_filename="data.json")
+    input_filename = str(sys.argv[1])
+
+    #Add Selector
+
+    parseSeatMap1(input_filename)
+
+def parseSeatMap1(input_filename):
+    seatmap1_parser = Seat1MapParser(input_filename)
+    flightSeatsByRow = seatmap1_parser.getFlightSeats()
+    flightData = seatmap1_parser.getFlightInfo()
+    JSONFileWriter().flightDataToJson(FlightOutputData(flightSeatsByRow, flightData),output_filename=input_filename+"_parsed.json")
+
+def parseSeatMap2(input_filename):
+    seatmap2 = Seat2MapParser(input_filename)
+    flightSeatsByRow = seatmap2.getFlightSeats()
+    flightData = seatmap2.getFlightInfo()
+    JSONFileWriter().flightDataToJson(FlightOutputData(flightSeatsByRow, flightData),output_filename=input_filename+"_parsed.json")
 
 if __name__ == '__main__':
     run()

@@ -19,9 +19,9 @@ class JSONFileWriter:
         jsonFile.write(jsonString)
         jsonFile.close()
     
-    def flightSeatsByRowToJson(self, flightSeatsByRow : list, flightData,output_filename: str):
-        
+    def flightDataToJson(self, flightData: FlightOutputData, output_filename: str):
         jsonFile = open(output_filename, "w")
-        jsonString = json.dumps(FlightOutputData(flightSeatsByRow, flightData).jsonRepr(), cls=ComplexEncoder, indent=2)
+        jsonString = json.dumps(flightData.jsonRepr(), cls=ComplexEncoder, indent=2)
         jsonFile.write(jsonString)
         jsonFile.close()
+        
