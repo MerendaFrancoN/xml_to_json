@@ -10,8 +10,10 @@ def run():
     input_filename = str(sys.argv[1])
 
     #Add Selector
-
-    parseSeatMap2(input_filename)
+    try:
+        parseSeatMap1(input_filename)
+    except:
+        parseSeatMap2(input_filename)
 
 def parseSeatMap1(input_filename):
     seatmap1_parser = Seat1MapParser(input_filename)
@@ -22,8 +24,8 @@ def parseSeatMap1(input_filename):
 def parseSeatMap2(input_filename):
     seatmap2 = Seat2MapParser(input_filename)
     flightSeatsByRow = seatmap2.getFlightSeats()
-    #flightData = seatmap2.getFlightInfo()
-    JSONFileWriter().flightDataToJson(FlightOutputData(flightSeatsByRow, {}),output_filename=input_filename+"_parsed.json")
+    flightData = seatmap2.getFlightInfo()
+    JSONFileWriter().flightDataToJson(FlightOutputData(flightSeatsByRow, flightData),output_filename=input_filename+"_parsed.json")
 
 if __name__ == '__main__':
     run()

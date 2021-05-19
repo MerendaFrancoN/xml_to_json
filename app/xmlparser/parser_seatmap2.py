@@ -15,6 +15,7 @@ class Seat2MapParser:
     __fileTree = None
     __fileRoot = None
     __offerItems = {}
+    __flightSegmentInfo = None
     # init method or constructor
 
     def __init__(self, file):
@@ -22,7 +23,7 @@ class Seat2MapParser:
         self.__fileRoot = self.__fileTree.getroot()
         #Dict - str -> Price
         self.__offerItems = self.__parseAlaCarteOffer()
-
+        self.__flightSegmentInfo = self.__parseFlightInfo()
 
     def __parseAlaCarteOffer(self):
         offerItemsDict = {}
@@ -150,7 +151,30 @@ class Seat2MapParser:
                 pass
         return seatConditions
 
+    def __parseFlightInfo(self):
+        return self.__fileRoot.find("ns:DataLists",self.__namespaces).find("ns:FlightSegmentList",self.__namespaces).find("ns:FlightSegment",self.__namespaces)
 
-            
+    def getFlightInfo(self) -> FlightInfo:
+
+        departureElement = self.__flightSegmentInfo.find("ns:Departure", self.__namespaces)
+        arrivalElement = self.__flightSegmentInfo.find("ns:Arrival", self.__namespaces)
+        marketingElement = self.__flightSegmentInfo.find("ns:MarketingCarrier", self.__namespaces)
+        aircraftCode = self.__flightSegmentInfo.find("ns:Equipment", self.__namespaces).find("ns:AircraftCode", self.__namespaces).text
+
+        departureDate = departureElement.find("ns:Date", self.__namespaces).text
+        departureTime = departureElement.find("ns:Time", self.__namespaces).text
+
+        return FlightInfo(
+            flightNumber=marketingElement.find("ns:FlightNumber", self.__namespaces).text,
+            departureDateTime= self.__dateAndTimeToDateTimeFormat(departureDate, departureTime),
+            airEquipCode=aircraftCode,
+            arrivalAirportCode=arrivalElement.find("ns:AirportCode", self.__namespaces).text,
+            departureAirportCode=departureElement.find("ns:AirportCode", self.__namespaces).text,
+        )
+    
+    #Date and Time to DateTime format
+    def __dateAndTimeToDateTimeFormat(self, departureDate, departureTime):
+        departureDateTime = departureDate+"T"+departureTime+":00"
+        return departureDateTime
 
 

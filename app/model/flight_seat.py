@@ -6,6 +6,7 @@ class SeatLocation(enum.Enum):
     WINDOW = 1
     CENTER = 2
     AISLE = 3
+    NO_INFO = 4
 
 class CabinType(enum.Enum):
     ECONOMY = 1

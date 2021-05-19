@@ -23,6 +23,7 @@ class Seat1MapParser:
 
     # init method or constructor
 
+
     def __init__(self, file):
         self.__fileTree = ET.parse(file)
         self.__fileRoot = self.__fileTree.getroot()
@@ -85,8 +86,9 @@ class Seat1MapParser:
                     "ns:Features", self.__namespaces)
 
         seatLocationStr = ""
+        possibleSeatLocationsStrings = ["Aisle", "Window", "Center"]
         for feature in features:
-            if(len(feature.keys()) == 0):
+            if(len(feature.keys()) == 0 and feature.text in possibleSeatLocationsStrings):
                 seatLocationStr = feature.text
                 break
         
@@ -96,7 +98,10 @@ class Seat1MapParser:
         if(seatLocationStr == "Window"):
                 return SeatLocation.WINDOW.name
         if(seatLocationStr == "Center"):
-                return SeatLocation.CENTER.name        
+                return SeatLocation.CENTER.name
+        
+        #If there is no info
+        return SeatLocation.NO_INFO.name
         
     def __parseAvailability(self, seatInfo: ET.Element):
 
