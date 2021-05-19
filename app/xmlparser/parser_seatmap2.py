@@ -66,6 +66,7 @@ class SeatMap2Parser(SeatMapParserInterface):
                     seatsRowList.append(
                         FlightSeat(
                             rowNumber = rowNumber,
+                            cabinLayout= self.__cabinLayoutDictToStr(cabinLayoutDict),
                             seatId=str(rowNumber)+str(colNumber),
                             availability=availability,
                             cabinClass=self.__parseCabinClass(seat),
@@ -77,6 +78,10 @@ class SeatMap2Parser(SeatMapParserInterface):
         
         return flightSeatList
     
+    def __cabinLayoutDictToStr(self, cabinLayoutDict : dict):
+        cabinLayoutKeys = list(cabinLayoutDict.keys())
+        string =  "".join(cabinLayoutKeys)
+        return string
 
     def __parseCabinClass(self, seat):
         preferentialSeatClass = "SD16"

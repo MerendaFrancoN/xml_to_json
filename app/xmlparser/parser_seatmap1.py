@@ -48,12 +48,14 @@ class SeatMap1Parser(SeatMapParserInterface):
     def getFlightSeats(self) -> list:
         flightSeatList = []
         for cabinRowElement in self.__getCabinsData():
+            cabinLayout = cabinRowElement.get("Layout")
             for seatRow in cabinRowElement:
-                rowSeatsList = self.__parseRawRowSeat(seatRow)
+                
+                rowSeatsList = self.__parseRawRowSeat(seatRow, cabinLayout)
                 flightSeatList.append(rowSeatsList)
         return flightSeatList
 
-    def __parseRawRowSeat(self, row: ET.Element):  # RowInfo
+    def __parseRawRowSeat(self, row: ET.Element, cabinLayout: str):  # RowInfo
         seatsInRow = row.findall("ns:SeatInfo", self.__namespaces)
         seatsParsed = []
         for seatInfo in seatsInRow:
@@ -64,7 +66,8 @@ class SeatMap1Parser(SeatMapParserInterface):
                 seatId=seatInfo.find(
                     "ns:Summary", self.__namespaces).get("SeatNumber"),
                 location=self.__parseSeatLocation(seatInfo),
-                price=Price(totalAmount=0.0, currency="")
+                price=Price(totalAmount=0.0, currency=""),
+                cabinLayout=cabinLayout
             )
             # Update price of the seat
             flightSeat.price = self.__parseSeatPrice(
@@ -73,8 +76,8 @@ class SeatMap1Parser(SeatMapParserInterface):
 
         return seatsParsed
 
-    def __parseCabinType(self, cabinTypeElement:ET.Element):
-        cabinType = cabinTypeElement.get("CabinType")
+    def __parseCabinType(self, rowInfoElement:ET.Element):
+        cabinType = rowInfoElement.get("CabinType")
         if(cabinType == "Economy"):
             return CabinType.ECONOMY.name
         if(cabinType == "First"):

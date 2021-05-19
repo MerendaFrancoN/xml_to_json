@@ -18,19 +18,21 @@ class FlightSeat:
     rowNumber = ""
     location = ""
     cabinClass = ""
+    cabinLayout = ""
     seatId = ""
     availability = Availability(value=False, conditions=[])
     price = Price(totalAmount=0.0, currency=""),
 
 
     def __init__(self, location: str, cabinClass: str, seatId: str, 
-    availability: Availability, price: Price, rowNumber: str):
+    availability: Availability, price: Price, rowNumber: str, cabinLayout: str):
         self.location = location
         self.cabinClass = cabinClass
         self.seatId = seatId
         self.availability = availability
         self.price = price
         self.rowNumber = rowNumber
+        self.cabinLayout = cabinLayout
     
     def jsonRepr(self):
         return {
@@ -38,6 +40,7 @@ class FlightSeat:
             "location": self.location,
             "seatId": self.seatId,
             "cabinClass":self.cabinClass,
+            "cabinLayout": self.cabinLayout,
             "price": self.price.jsonRepr(),
             "availability": self.availability.jsonRepr()
         }
