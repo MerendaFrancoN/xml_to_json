@@ -1,14 +1,25 @@
 # XML To JSON - Seatmaps
 
-# Problem assumptions
+## Problem assumptions
 
-# JSON Output Format
+ * seatmap1.xml 
+    - Get the seat availability value from "availableInd" in <ns:Summary>
+    - Unify "Fee" and "Taxes" into "totalAmount" output seat field
+    - Use "extension" and Text from <ns:Feature> tags to get SeatConditions
+ 
+ 
+ * seatmap2.xml 
+    - Get the seat availability value if seat has any of the restrictions ("SD10", "SD11" and "SD19" ) and has "SD4" available seat definition
+    - Set cabinType to PREFERENTIAL or ECONOMY according if seat has "SD16" definition
+
+## JSON Output Format
   For the standardized JSON Format, some of the fields works with an enum behind, in an attempt to unify both formats into one.
   In the JSON output will have two fields, 
   - "flightData" which is a quick info of the flight where the seats are from
   - "seatsData" which has the seats objects by row
-    
-  ## Seat Fields
+
+
+  ### Seat Fields
    - "rowNumber" - String indicating rowNumber of the seat
    - "location" - String indicating WINDOW,CENTER,AISLE, or NO_INFO seat location. Check **SeatLocation Enum**
    - "cabinClass" - String indicating class of the cabin, can be ECONOMY, FIRST or PREFERENTIAL. Check **CabinType Enum**
@@ -37,7 +48,7 @@
         }
       },
    
-## FlightData Fields
+### FlightData Fields
    - "departureAirportCode" - String indicating departure airport code
    - "arrivalAirportCode" - String indicating airport code
    - "airEquipCode" - String indicating aircraft code
